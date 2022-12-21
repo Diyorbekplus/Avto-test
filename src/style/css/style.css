@@ -217,3 +217,16 @@ body {
     height: 90%;
   }
 }
+
+.about {
+  position: absolute;
+  padding: 2rem;
+}
+.about p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  line-height: 2rem;
+}

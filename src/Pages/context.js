@@ -4,6 +4,7 @@ const AppProvider = ({children}) => {
     const [isQuestionsPageOpen, setQuestionsPage] = useState(false);
     const [isSelectionPanelOpen, setSelectionPanel] = useState(false);
     const [isEnterButton, setEnterButton] = useState(true);
+    const [isShowAnswer, setShowAnswer] = useState(false)
 
 
     const openQuestionsPage = () => {
@@ -12,6 +13,7 @@ const AppProvider = ({children}) => {
     }
     const closeQuestionsPage = () => {
         setQuestionsPage(false);
+        hideAnswer()
         openEnterButton()
     }
 
@@ -29,6 +31,13 @@ const AppProvider = ({children}) => {
     const closeEnterButton = () => {
         setEnterButton(false)
     }
+
+    const showAnswer = () => {
+        setShowAnswer(true)
+    }
+    const hideAnswer = () => {
+        setShowAnswer(false)
+    }
     return (
         <AppContext.Provider
         value={{
@@ -41,7 +50,12 @@ const AppProvider = ({children}) => {
             closeSelectionPanel,
 
             isEnterButton,
-            closeEnterButton
+            closeEnterButton,
+
+            isShowAnswer,
+            showAnswer,
+            hideAnswer
+            
         }}>
             {children}
         </AppContext.Provider>

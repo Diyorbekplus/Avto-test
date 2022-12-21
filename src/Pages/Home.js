@@ -7,7 +7,7 @@ import 'bootstrap/dist/js/bootstrap';
 
 import autoQuestions from "./data";
 function Home() {
-  const {isQuestionsPageOpen, openQuestionsPage, closeQuestionsPage, isSelectionPanelOpen, closeSelectionPanel, openSelectionPanel, isEnterButton} = useGlobalContext()
+  const {isQuestionsPageOpen, openQuestionsPage, closeQuestionsPage, isSelectionPanelOpen, closeSelectionPanel, openSelectionPanel, isEnterButton, isShowAnswer, showAnswer, closeAnswer} = useGlobalContext()
   const [biletCount, setBiletCounter] = useState(1);
   const {bilet, questions} = autoQuestions[biletCount];
   const [questionCount, setQuestionCounter] = useState(0)
@@ -82,7 +82,7 @@ function Home() {
    Javobi
   </button>
 </p>
-<div className="collapse answer" id="answer">
+<div className={`${ isShowAnswer ? "answer"  : "answer collapse "}`} id="answer">
   <div className="card card-body">
    {trueAnswer}
   </div>
