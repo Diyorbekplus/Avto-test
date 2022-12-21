@@ -1,0 +1,269 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(70, 68, 68);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main-layout {
+    position: relative;
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        background: rgb(200, 75, 40);
+        .container-fluid {
+            margin: 0 10rem;
+            padding: 0;
+        }
+
+        .logo-section {
+                    a {
+                        img {
+                        width: 50px;
+                        color: coral;
+                        margin: 0.5rem auto;
+                    }
+                    }
+                    
+        }
+
+        .navbar-nav {
+                .nav-item{
+            .nav-link{
+                color:#fff;
+                font-size: 1.3rem;
+
+                &:hover {
+                    color: rgb(70, 68, 68);
+                }
+
+                &:focus{
+                    color: rgb(70, 68, 68);
+                }
+            }
+        }    
+        }
+
+        .contact-section {
+            .nav-link {
+                color:#fff;
+                font-size: 1.3rem;
+
+                &:hover {
+                    color: rgb(70, 68, 68);
+                }
+
+                &:focus{
+                    color: rgb(70, 68, 68);
+                }
+
+            }
+        }
+
+
+    }
+
+    .data-section {
+        position: relative;
+        height: 100vh;
+        .articles {
+            margin: 1rem auto;
+            width: 95%;
+            height: 100%;
+            border-radius: 1rem;
+            background: rgb(255, 255, 255);
+        }
+    }
+
+    .home {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .enter-btn{
+            display: none;
+            color: #fff;
+            margin-top: 5rem;
+            border: 2px solid coral;
+            width: 150px;
+            background: rgb(70, 68, 68);
+            padding: 1rem;
+            border-radius: 1rem;
+            font-size: 1.5rem;
+
+            &:hover {
+                box-shadow: 
+                1px 5px 20px rgb(70, 68, 68),
+                1px -5px 20px rgb(70, 68, 68);
+            }
+        }
+
+        .enter-btn.show-enter-btn {
+            display: block;
+        }
+
+        .selection-panel {
+            display: none;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            top: 30%;
+            transform: translateY(-50%);
+            position: absolute;
+            background: rgb(70, 68, 68);
+            padding: 1rem;
+            border-radius: 1rem;
+            
+            .alert {
+                font-size: 1.4rem;
+             }
+            .buttons {
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+                border-radius: 1rem;
+
+                .btn {
+                    color: #fff;
+                    border: 2px solid coral;
+                    background: rgb(70, 68, 68);
+                    border-radius: 1rem;
+                    font-size: 1.5rem;
+                    padding: 0.5rem;
+                    margin: 2rem 2rem 1rem 2rem;
+                }
+            }
+        }
+        .show-selection-panel {
+            display: flex;
+        }
+
+        .questions-panel {
+            display:none;
+            flex-wrap: wrap;
+            border-radius: 1rem;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgb(234, 235, 235);
+            box-sizing: border-box;
+
+            .questions-label {
+                position: relative;
+                padding: 1rem;
+                float: left;
+                width: 30%;
+                .alert {
+                    font-size: 1.2rem;
+
+                    span {
+                        font-size: 1.2rem;
+                        color: rgb(200, 75, 40);
+                    }
+                }
+                ul {
+                    li {
+                        font-size: 1.2rem;
+                        span {
+                            color: rgb(200, 75, 40);
+                            font-size: 1.2rem;
+                        }
+                    }
+                }
+
+                .show-btn {
+                    background: rgb(200, 75, 40);
+                    color: #fff;
+                }
+            }
+            .image-label {
+                position: relative;
+                padding: 1rem;
+                float: left;
+                width: 70%;
+
+                .header {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    button {
+                        span {
+                            margin: 0 0rem;
+                            background: rgb(200, 75, 40);
+                            font-size: 1.2rem;
+                            color: #000;
+                        }
+                    }
+                }
+            
+
+                img {
+                    max-height: 720px;
+                    width: 100%;
+                    height: 80%;
+                }
+
+                .control-buttons {
+                    display: flex;
+                    padding: 1rem;
+                    justify-content: space-between;
+
+                    .btn {
+                        border: 1px solid rgb(200, 75, 40);
+
+                        &:hover {
+                            color: rgb(200, 75, 40);
+                        }
+                    }
+                }
+            }
+        }
+
+        .questions-panel.show-questions-panel {
+            display: flex;
+        }
+
+        @media only screen and (max-width: 1000px) {
+            .questions-panel {
+                position: absolute;
+                width: 100%;
+                display:none;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                border-radius: 1rem;
+        
+                .questions-label {
+                    position: relative;
+                    float: left;
+                    width: 100%;
+                }
+                .image-label {
+                    position: relative;
+                    padding: 1rem;
+                    display: flex;
+                    flex-direction: column;
+                    float: left;
+                    width: 100%;
+
+                    .header-section {
+                        position: absolute;
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                    img {
+                        max-height: 720px;
+                        min-height: 720px;
+                        width: 100%;
+                        height: 90%;
+                    }
+        
+                }
+            }
+          }
+    }
+}
+
