@@ -65,6 +65,12 @@ import img854 from "./Images/85-4.jpg";
 import img855 from "./Images/85-5.jpg";
 import img856 from "./Images/85-6.jpg";
 import img859 from "./Images/85-9.jpg";
+import img862 from "./Images/86-2.jpg";
+import img865 from "./Images/86-5.jpg";
+import img866 from "./Images/86-6.jpg";
+
+
+
 
 
 
@@ -1864,6 +1870,120 @@ const autoQuestions = [
                 `Qon tomirlaridan pushti rangli qon kuchli pulsatsiya bilan otilib chiqadi`
             ],
             trueAnswer: `Qon tomirlaridan pushti rangli qon kuchli pulsatsiya bilan otilib chiqadi`
+        }
+    ]
+},
+/* Bilet 16 */
+{
+    bilet:16,
+    questions: [
+        {
+            id:1,
+            img:universalImage,
+            question:`Turar joy dahalaridan chiqishda haydovchilar:`,
+            answers: [
+                `Boshqa harakat qatnashchilariga yo'l berishi kerak`,
+                `Boshqa harakat qatnashchilariga nisbatan imtiyozga ega`
+                
+            ],
+            trueAnswer: `Boshqa harakat qatnashchilariga yo'l berishi kerak`
+        },
+        {
+            id:2,
+            img:img862,
+            question:`Qaysi belgi temir yo'l kesishmasini to'suvchi qurilma bilan jihozlanganligi haqida ogohlantiradi?`,
+            answers: [
+                `"A"`,
+                `"B"`,
+                `"D"`,
+                `"C"`
+            ],
+            trueAnswer: `"C"`
+        },
+        {
+            id:3,
+            img:universalImage,
+            question:`Venoz qon ketish alomatlarini ko'rsating:`,
+            answers: [
+                `Mayda qon tomirlaridan ichki a'zolarga qonning oqib chiqishi kuzatiladi`,
+                `Qon tomirlaridan to'q qizil rangdagi qon sizib oqib chiqadi`,
+                `Qon tomiridan pushti rangli qon kuchli pulsatsiya bilan otilib chiqadi`
+
+            ],
+            trueAnswer: `Qon tomirlaridan to'q qizil rangdagi qon sizib oqib chiqadi`
+        },
+        {
+            id:4,
+            img:universalImage,
+            question:`"Imtiyoz" atamasiga tegishli tarifni ko'rsating`,
+            answers: [
+                `Yo'l harakati qatnashchilariga nisbatan imtiyozi bo'lgan boshqa yo'l harakati qatnashchilariga harakat`,
+                `Mo'ljallangan yo'nalishda boshqa yo'l harakati qatnashchilariga nisbatan oldin harakatlanish huquqii`
+            ],
+            trueAnswer: `Mo'ljallangan yo'nalishda boshqa yo'l harakati qatnashchilariga nisbatan oldin harakatlanish huquqii`
+        },
+        {
+            id:5,
+            img:img865,
+            question:`Ushbu belgilardan qaysi biri bir yoki bir nechta bo'laklarda harakatlanish yo'nalishi qarama-qarshi tomonga o'zgarish mumkin bo'lgan yo'l qismining boshlanishini bildiradi?`,
+            answers: [
+                `"A"`,
+                `"V"`,
+                `"B"`,
+            ],
+            trueAnswer: `"V"`
+        },
+        {
+            id:6,
+            img: img866,
+            question:`Chorrahada qaysi avtomobil yo'l berishi kerak?`,
+            answers: [
+                `Qizil avtomobil`,
+                `Ko'k avtomobil`
+            ],
+            trueAnswer: `Qizil avtomobil`
+        },
+        {
+            id:7,
+            img:universalImage,
+            question:`Agar biror-bir to'siq sababli qarama-qarshi yo'nalishlarda harakatlanish qiyin bo'lsa kim yo'l berishi kerak?`,
+            answers: [
+                `To'siq o'z tomonida bo'lgan haydovchi`,
+                `To'siq bo'lmagan tomondagi haydovchi`
+            ],
+            trueAnswer: `To'siq o'z tomonida bo'lgan haydovchi`
+        },
+        {
+            id:8,
+            img:universalImage,
+            question:`Tumanga qarshi chiroqlarni qorong'i vaqtda yo'lning yoritilmagan qismlarida uzoqni yorituvchi chiroqlar bilan birga qo'llash mumkinmi?`,
+            answers: [
+                `Ha`,
+                `Yo'q`
+            ],
+            trueAnswer: `Ha`
+        },
+        {
+            id:9,
+            img:universalImage,
+            question:`Yengil avtomobil tirkamasi burilishda qanday troektoriya bo'yicha harakatlanadi?`,
+            answers: [
+                `Burilish markaziga nisbatan avtomobil troyektoriyasidan tashqarida`,
+                `Burilish markaziga nisbatan avtomobil troyektoriyasidan ichkarida`,
+                `Avtomobil troyektoriyasi bo'yicha`
+            ],
+            trueAnswer: `Burilish markaziga nisbatan avtomobil troyektoriyasidan ichkarida`
+        },
+        {
+            id:10,
+            img:universalImage,
+            question:`G'ildiraklarni yo'l bilan ilashishi yo'qolganda (kuchli yomg'ir, sel yoki suv toshgan yo'l qismlari) haydovchi:`,
+            answers: [
+                `Tormoz tepkisini keskin bosish bilan tezlikni kamaytirish lozim`,
+                `Dvigatel bilan tormozlash orqali tezlikni kamaytirishi lozim`,
+                `Tezlikni oshirishi lozim`
+            ],
+            trueAnswer: `Dvigatel bilan tormozlash orqali tezlikni kamaytirishi lozim`
         }
     ]
 },
