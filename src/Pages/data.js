@@ -2347,7 +2347,7 @@ const autoQuestions = [
     ]
 },
 /* Bilet 20 */
-/* {
+{
     bilet:20,
     questions: [
         {
@@ -2464,7 +2464,7 @@ const autoQuestions = [
             trueAnswer: `Nishablik qancha qiya bo'lsa, uzatma pog'onasi shuncha past tanlanadi`
         }
     ]
-}, */
+},
 
 ]
 
