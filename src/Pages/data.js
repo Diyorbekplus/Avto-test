@@ -43,10 +43,11 @@ import img806 from "./Images/80-6.jpg";
 import img807 from "./Images/80-7.jpg";
 import img809 from "./Images/80-9.jpg";
 import img8010 from "./Images/80-10.jpg";
-
-
-
-
+import img813 from "./Images/81-3.jpg";
+import img814 from "./Images/81-4.jpg";
+import img815 from "./Images/81-5.jpg";
+import img817 from "./Images/81-7.jpg";
+import img8110 from "./Images/81-10.jpg";
 
 
 
@@ -1255,7 +1256,123 @@ const autoQuestions = [
             }
         ]
     },
+/* Bilet 11 */
+{
+    bilet:11,
+    questions: [
+        {
+            id:1,
+            img:universalImage,
+            question:`Avtomobilni qanday boshqarish usuli yonilg'i sarfini tejaydi?`,
+            answers: [
+                `Ohista ravon tezlanish va shiddat bilan sekinlashish bilan`,
+                `Shiddat bilan tezlanish va ohista ravon sekinlashish bilan`,
+                `Ohista ravon tezlanish va ohista ravon sekinlashish bilan`
+            ],
+            trueAnswer: `Ohista ravon tezlanish va ohista ravon sekinlashish bilan`
+        },
+        {
+            id:2,
+            img:universalImage,
+            question:`Moped haydovchisiga ruxat beriladi:`,
+            answers: [
+                `Barcha sanab o'tilgan hollarda`,
+                `Faqat yo'l yoqasidan harakatlanishga, agar piyodalarga halaqit bermasa`,
+                `Faqat yo'lning chetki o'ng bo'lagi tomonidan bir qator bo'lib harakatlanishga`
+            ],
+            trueAnswer: `Barcha sanab o'tilgan hollarda`
+        },
+        {
+            id:3,
+            img:img813,
+            question:`Ushbu belgi ...`,
+            answers: [
+                `Oldinda transport vositalari orasida xavfsiz oraliqni ta'minlash haqida ogohlantiradi`,
+                `Oldinda harakatlanish serqatnovligi haqida ogohlantiradi`,
+                `Oldinda transport vositalarining tirbandligi haqida ogohlantiradi`
+            ],
+            trueAnswer: `Oldinda transport vositalarining tirbandligi haqida ogohlantiradi`
+        },
+        {
+            id:4,
+            img:img814,
+            question:`Quyidagi belgilardan qays biri haydovchini boshq xavf-xatarlar to'g'risida ogohlantiradi?`,
+            answers: [
+                `Faqat "B"`,
+                `Faqat "A"`,
+                `Faqat "V"`
 
+            ],
+            trueAnswer: `Faqat "V"`
+        },
+        {
+            id:5,
+            img:img815,
+            question:`Harakatlanishga ruxsat berilgan:`,
+            answers: [
+                `Qizil, sariq va yashil avtomobilga `,
+                `Qizil, ko'k, yashil va sariq avtomobilga`,
+                `Qizil va sariq avtomobilga`
+
+            ],
+            trueAnswer: `Qizil va sariq avtomobilga`
+        },
+        {
+            id:6,
+            img: universalImage,
+            question:`Svetaforning qizil yoki sariq ishorasi bilan bir vaqtda yongan qo'shimcha tarmoqning yo'naltirgichli yashil ishorasi yo'nalishida harakatlanayotgan transport vositasining haydovchisi kimga yo'l berishi kerak?`,
+            answers: [
+                `Boshqa yo'nalishlarda harakatlanayotgan transport vositalariga yo'l berishi kerak`,
+                `Qarama-qarshi yo'nalishda to'g'riga yoki o'ngga harakatlanayotgan transport vositalariga`
+            ],
+            trueAnswer: `Boshqa yo'nalishlarda harakatlanayotgan transport vositalariga yo'l berishi kerak`
+        },
+        {
+            id:7,
+            img:img817,
+            question:`Ushbu yotiq chiziq nimani bildiradi?`,
+            answers: [
+                `Velosiped yolkasini`,
+                `Yo'nalishli taksilar to'xtaydigan joyni`,
+                `Suniy yo'l noteksligini`
+            ],
+            trueAnswer: `Suniy yo'l noteksligini`
+        },
+        {
+            id:8,
+            img:universalImage,
+            question:`Yo'l-transport hodisasi - bu ...`,
+            answers: [
+                `Yo'l harakati qatnashichilarining yo'l-tranportlari va ularning oqibatlaridan himoyalanganlik daraja`,
+                `Transport vositasining yo'lda harakatlanishi jarayonida ro'y bergan fuqoralarning halok bo'lishiga`
+
+            ],
+            trueAnswer: `Transport vositasining yo'lda harakatlanishi jarayonida ro'y bergan fuqoralarning halok bo'lishiga`
+        },
+        {
+            id:9,
+            img:universalImage,
+            question:`Piyodalar o'tish joyi - bu ...`,
+            answers: [
+                `Qatnov qismiga tutashgan yoki undan maysazor, ariq, maxsus to'siqlar bilan ajratilgan va piyodalarni`,
+                `Yo'l qatnov qismining piyodalar kesib o'tishi uchun mo'ljallangan 5.16.1 va 5.16.2 belgilari`,
+                `Yo'lning piyodalar harakatlanishi uchun mo'ljallangan va transport vositalari harakati taqiqlangan`
+            ],
+            trueAnswer: `Yo'l qatnov qismining piyodalar kesib o'tishi uchun mo'ljallangan 5.16.1 va 5.16.2 belgilari`
+        },
+        {
+            id:10,
+            img:img8110,
+            question:`Siz chorrahada chapga burilishda qaysi transport vositasia yo'l berishingiz kerak?`,
+            answers: [
+                `Hech kimga`,
+                `Yengil avtomobilga`,
+                `Aftobusga`
+            ],
+            trueAnswer: `Hech kimga`
+        }
+    ]
+},
 ]
 
 export default autoQuestions;
