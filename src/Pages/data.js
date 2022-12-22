@@ -48,7 +48,10 @@ import img814 from "./Images/81-4.jpg";
 import img815 from "./Images/81-5.jpg";
 import img817 from "./Images/81-7.jpg";
 import img8110 from "./Images/81-10.jpg";
-
+import img821 from "./Images/82-1.jpg";
+import img825 from "./Images/82-5.jpg";
+import img828 from "./Images/82-8.jpg";
+import img8210 from "./Images/82-10.jpg";
 
 
 
@@ -1370,6 +1373,131 @@ const autoQuestions = [
                 `Aftobusga`
             ],
             trueAnswer: `Hech kimga`
+        }
+    ]
+},
+/* Bilet 12 */
+{
+    bilet:12,
+    questions: [
+        {
+            id:1,
+            img:img821,
+            question:`Qaysi rasmdagi yo'l ajratuvchi bo'lakka ega?`,
+            answers: [
+                `Chap tarafdagisida`,
+                `Har ikkisida`,
+                `O'ng tarafdagisida`
+            ],
+            trueAnswer: `Har ikkisida`
+        },
+        {
+            id:2,
+            img:img821,
+            question:`Ushbu ko'rsatilgan yo'llar nechta qatnov qismiga ega?`,
+            answers: [
+                `4`,
+                `2`,
+                `1`
+            ],
+            trueAnswer: `2`
+        },
+        {
+            id:3,
+            img:universalImage,
+            question:`To'xtab turish tormoz tizimi N toifadagi avtotransport vositalarini aslahalangan holatda qanday qiyalikda harakatsiz holatda ushlab tura olmasa foydalanish taqiqlanadi?`,
+            answers: [
+                `25% foizda kam bo'lgan`,
+                `16 foizdan kam bo'lgan`,
+                `31 foizdan kam bo'lgan`,
+                `20 foizdan kam bo'lgan`
+            ],
+            trueAnswer: `31 foizdan kam bo'lgan`
+        },
+        {
+            id:4,
+            img:universalImage,
+            question:`Piyodalar yo'lkasi - bu ...`,
+            answers: [
+                `Yo'l qatnov qismining piyodalar kesib o'tishi uchun mo'ljallangan 5.16.1 va 5.16.2 yo'l belgilari va`,
+                `Yo'lning piyodalar harakatlanish uchun mo'lajallangan va transport vositalari harakati taqiqlangan`,
+                `Qatnov qismiga tutashgan yoki undan maysazor, ariq, maxsus to'siqlar bilan ajratilgan va piyodalarni`
+
+            ],
+            trueAnswer: `Yo'lning piyodalar harakatlanish uchun mo'lajallangan va transport vositalari harakati taqiqlangan`
+        },
+        {
+            id:5,
+            img:img825,
+            question:`Qaysi belgi yo'lning tor qismlarida ro'paradan kelayotgan transport vositasiga yo'l berish lozimligini bildiradi?`,
+            answers: [
+                `"B"`,
+                `"A"`,
+                `"A" va "G"`,
+                `"G"`,
+                `"B" va "V"`
+
+            ],
+            trueAnswer: `"A"`
+        },
+        {
+            id:6,
+            img: universalImage,
+            question:`Bosh miya jarohatlanishining asosiy alomatlari:`,
+            answers: [
+                `Amneziya - xotiraning yo'qolishi sodir bo'lgan jarohatlanish bilan bog'liq va hayotdagi ba'zi`,
+                `Qayt qilish bir-ikki marta, og'ir holatlarda ko'proq bo'lishi mumkin`,
+                `Yuqoridagi barcha holatlar`,
+                `Hushdan ketish bir necha soniyadan bir necha soatgacha bo'lishi mumkin`
+            ],
+            trueAnswer: `Yuqoridagi barcha holatlar`
+        },
+        {
+            id:7,
+            img:universalImage,
+            question:`Yo'lning qiyaliklarida qisqa muddatga to'xtagan mexanik uzatmali avtomobilni joyidan to'satdan harakatlanib ketishini oldini olish uchun:`,
+            answers: [
+                `Birinchi uzatmani yoki orqa uzatmani ulash lozim`,
+                `Uzatmalar qutisi richagini neytral holatga o'tkazish lozim`,
+                `To'xtash turish tormozidan foydalanish lozim`
+            ],
+            trueAnswer: `To'xtash turish tormozidan foydalanish lozim`
+        },
+        {
+            id:8,
+            img:img828,
+            question:`Ushbu belgilardan qaysi biri haydovchining shu joydagi yashash yoki ishlash joyiga yetib borshiga monelik qilmaydi?`,
+            answers: [
+                `"A"`,
+                `"C"`,
+                `"B"`,
+                `"B" va "C"`
+
+            ],
+            trueAnswer: `"C"`
+        },
+        {
+            id:9,
+            img:universalImage,
+            question:`G'ildiraklarni yo'l bilan ilashishi yo'qolganda (kuchli yomg'ir, sel yoki suv toshgan yo'l qismlari) haydovchi:`,
+            answers: [
+                `Tezlikni oshirish lozim`,
+                `Dvigatel bilan tormozlash orqali tezlikni kamaytirish lozim`,
+                `Tormoz tepkisini keskin bosish bilan tezlikni kamaytirish lozim`
+            ],
+            trueAnswer: `Dvigatel bilan tormozlash orqali tezlikni kamaytirish lozim`
+        },
+        {
+            id:10,
+            img:img8210,
+            question:`Ko'rsatilgan yo'l belgilaridan qaysi biri taqiqlovchi belgilar ilgari kiritgan barcha cheklovlarni bekor qiladi?`,
+            answers: [
+                `"V" va "G"`,
+                `"A" va "B"`,
+                `Barchasi`,
+                `Faqat "V"`
+            ],
+            trueAnswer: `Faqat "V"`
         }
     ]
 },
