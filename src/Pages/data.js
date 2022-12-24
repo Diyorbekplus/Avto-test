@@ -86,8 +86,14 @@ import img908 from "./Images/90-8.jpg";
 import img911 from "./Images/91-1.jpg";
 import img912 from "./Images/91-2.jpg";
 import img913 from "./Images/91-3.jpg";
-
-
+import img921 from "./Images/92-1.jpg";
+import img923 from "./Images/92-3.jpg";
+import img924 from "./Images/92-4.jpg";
+import img925 from "./Images/92-5.jpg";
+import img926 from "./Images/92-6.jpg";
+import img927 from "./Images/92-7.jpg";
+import img928 from "./Images/92-8.jpg";
+import img9210 from "./Images/92-10.jpg";
 
 const autoQuestions = [
     {
@@ -2468,14 +2474,14 @@ const autoQuestions = [
             }
         ]
     },
-    /* Bilet 21 */
+/* Bilet 21 */
     {
         bilet:21,
         questions: [
             {
                 id:1,
                 img:img911,
-                question:`shbu belgilardan qaysi biri oldinda yo'l qoplamasi istida sun'iy notekislik borligi haqida ogohlantiradi?`,
+                question:`Ushbu belgilardan qaysi biri oldinda yo'l qoplamasi istida sun'iy notekislik borligi haqida ogohlantiradi?`,
                 answers: [
                     `"B"`,
                     `"C"`,
@@ -2585,6 +2591,252 @@ const autoQuestions = [
             }
         ]
     },
+/* Bilet 22 */
+    {
+        bilet:22,
+        questions: [
+            {
+                id:1,
+                img:img921,
+                question:`Ushbu svetafor qaysi yo'nalishda harakatlanishga ruxsat beradi?`,
+                answers: [
+                    `To'g'riga va chapga`,
+                    `To'g'riga va o'ngga`,
+                    `Faqat chapga`,
+                    `Faqat o'ngga`,
+                    
+                ],
+                trueAnswer: `To'g'riga va o'ngga`
+            },
+            {
+                id:2,
+                img:universalImage,
+                question:`Miltillovchi sariq ishorali svtefor:`,
+                answers: [
+                    `Tartibga solinmagan chorraha yoki piyodalar o'tish joyi borligidan xarardor qiladi`,
+                    `Tartibga solingan chorraha borligidan xabardor qiladi`,
+                    `Svetafor chirog'i almashuvidan xabardor qiladi`
+                ],
+                trueAnswer: `Tartibga solinmagan chorraha yoki piyodalar o'tish joyi borligidan xarardor qiladi`
+            },
+            {
+                id:3,
+                img:img923,
+                question:`Yuk avtomobili haydovchisiga qaysi yo'nalishda harakatlanishga ruxsat beriladi?`,
+                answers: [
+                    `O'ngga, chapga va orqaga`,
+                    `Faqat o'ngga`,
+                    `To'g'riga va o'ngga`,
+                    `Barcha yo'nalishlarda`
+                ],
+                trueAnswer: `To'g'riga va o'ngga`
+            },
+            {
+                id:4,
+                img:img924,
+                question:`Qaysi rasmda ikkita qatnov qismiga ega bo'lgan yo'l ko'rsatilgan?`,
+                answers: [
+                    `"B" rasmda`,
+                    `Hech qaysi rasmda`,
+                    `"A" rasmda`
+                ],
+                trueAnswer: `Hech qaysi rasmda`
+            },
+            {
+                id:5,
+                img: img925,
+                question:`Bu vaziyatda siz o'ngga burilayotib, Siz:`,
+                answers: [
+                    `Harakat yo'nalishi bo'yicha va burilayotgan ko'chani kesib o'tayotgan piyodalarga hamda boshqa transport `,
+                    `Faqat transport vositalariga yo'l berasi`,
+                    `Barcha qatnov qismidagi piyodalarga yo'l berasiz`
+                ],
+                trueAnswer: `Harakat yo'nalishi bo'yicha va burilayotgan ko'chani kesib o'tayotgan piyodalarga hamda boshqa transport `
+            },
+            {
+                id:6,
+                img:img926,
+                question:`Ushbu yo'l nechta qatnov qismiga ega?`,
+                answers: [
+                    `1`,
+                    `4`,
+                    `2`
+                ],
+                trueAnswer: `1`
+            },
+            {
+                id:7,
+                img:img927,
+                question:`Qaysi brlgi yo'lning ko'rsatilgan yo'nalishida oxiri berk ko'chaligini bildirad`,
+                answers: [
+                    `3`,
+                    `2`,
+                    `5`,
+                    `4`,
+                    `1`
+                ],
+                trueAnswer: `4`
+            },
+            {
+                id:8,
+                img:img928,
+                question:`Qaysi transport vositalariga harakatlanishga ruxsat berilgan?`,
+                answers: [
+                    `Motosikl va yengil avtomobilga to'g'riga va o'ngga`,
+                    `Motosiklga o'ngga va yengil avtomobilga barcha yo'nalishlarga`,
+                    `Yengil avtomobilga to'g'riga va o'ngga`
+                ],
+                trueAnswer: `Yengil avtomobilga to'g'riga va o'ngga`
+            },
+            {
+                id:9,
+                img:universalImage,
+                question:`N1 toifadagi avtotransport vositalarining boshqaruv qurilmasidagi qanday eng katta lyuft yig'indisiga yo'l qo'yiladi?`,
+                answers: [
+                    `20 gradus`,
+                    `25 gradus`,
+                    `10 gradus`
+                ],
+                trueAnswer: `20 gradus`
+            },
+            {
+                id:10,
+                img:img9210,
+                question:`Qaysi belgi ikkinchi darajali yo'l bilan kesishuvni bildiradi?`,
+                answers: [
+                    `4`,
+                    `2`,
+                    `1`,
+                    `3`,
+                    `5`
+                ],
+                trueAnswer: `1`
+            }
+        ]
+    },
+/* Bilet 22 */
+/*     {
+    bilet:22,
+    questions: [
+        {
+            id:1,
+            img:img921,
+            question:`Ushbu svetafor qaysi yo'nalishda harakatlanishga ruxsat beradi?`,
+            answers: [
+                `To'g'riga va chapga`,
+                `To'g'riga va o'ngga`,
+                `Faqat chapga`,
+                `Faqat o'ngga`,
+                
+            ],
+            trueAnswer: `To'g'riga va o'ngga`
+        },
+        {
+            id:2,
+            img:universalImage,
+            question:`Miltillovchi sariq ishorali svtefor:`,
+            answers: [
+                `Tartibga solinmagan chorraha yoki piyodalar o'tish joyi borligidan xarardor qiladi`,
+                `Tartibga solingan chorraha borligidan xabardor qiladi`,
+                `Svetafor chirog'i almashuvidan xabardor qiladi`
+            ],
+            trueAnswer: `Tartibga solinmagan chorraha yoki piyodalar o'tish joyi borligidan xarardor qiladi`
+        },
+        {
+            id:3,
+            img:img923,
+            question:`Yuk avtomobili haydovchisiga qaysi yo'nalishda harakatlanishga ruxsat beriladi?`,
+            answers: [
+                `O'ngga, chapga va orqaga`,
+                `Faqat o'ngga`,
+                `To'g'riga va o'ngga`,
+                `Barcha yo'nalishlarda`
+            ],
+            trueAnswer: `To'g'riga va o'ngga`
+        },
+        {
+            id:4,
+            img:img924,
+            question:`Qaysi rasmda ikkita qatnov qismiga ega bo'lgan yo'l ko'rsatilgan?`,
+            answers: [
+                `"B" rasmda`,
+                `Hech qaysi rasmda`,
+                `"A" rasmda`
+            ],
+            trueAnswer: `Hech qaysi rasmda`
+        },
+        {
+            id:5,
+            img: img925,
+            question:`Bu vaziyatda siz o'ngga burilayotib, Siz:`,
+            answers: [
+                `Harakat yo'nalishi bo'yicha va burilayotgan ko'chani kesib o'tayotgan piyodalarga hamda boshqa transport `,
+                `Faqat transport vositalariga yo'l berasi`,
+                `Barcha qatnov qismidagi piyodalarga yo'l berasiz`
+            ],
+            trueAnswer: `Harakat yo'nalishi bo'yicha va burilayotgan ko'chani kesib o'tayotgan piyodalarga hamda boshqa transport `
+        },
+        {
+            id:6,
+            img:img926,
+            question:`Ushbu yo'l nechta qatnov qismiga ega?`,
+            answers: [
+                `1`,
+                `4`,
+                `2`
+            ],
+            trueAnswer: `1`
+        },
+        {
+            id:7,
+            img:img927,
+            question:`Qaysi brlgi yo'lning ko'rsatilgan yo'nalishida oxiri berk ko'chaligini bildirad`,
+            answers: [
+                `3`,
+                `2`,
+                `5`,
+                `4`,
+                `1`
+            ],
+            trueAnswer: `4`
+        },
+        {
+            id:8,
+            img:img928,
+            question:`Qaysi transport vositalariga harakatlanishga ruxsat berilgan?`,
+            answers: [
+                `Motosikl va yengil avtomobilga to'g'riga va o'ngga`,
+                `Motosiklga o'ngga va yengil avtomobilga barcha yo'nalishlarga`,
+                `Yengil avtomobilga to'g'riga va o'ngga`
+            ],
+            trueAnswer: `Yengil avtomobilga to'g'riga va o'ngga`
+        },
+        {
+            id:9,
+            img:universalImage,
+            question:`N1 toifadagi avtotransport vositalarining boshqaruv qurilmasidagi qanday eng katta lyuft yig'indisiga yo'l qo'yiladi?`,
+            answers: [
+                `20 gradus`,
+                `25 gradus`,
+                `10 gradus`
+            ],
+            trueAnswer: `20 gradus`
+        },
+        {
+            id:10,
+            img:img9210,
+            question:`Qaysi belgi ikkinchi darajali yo'l bilan kesishuvni bildiradi?`,
+            answers: [
+                `4`,
+                `2`,
+                `1`,
+                `3`,
+                `5`
+            ],
+            trueAnswer: `1`
+        }
+    ]
+    }, */
 
 ]
 
