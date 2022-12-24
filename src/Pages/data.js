@@ -94,6 +94,12 @@ import img926 from "./Images/92-6.jpg";
 import img927 from "./Images/92-7.jpg";
 import img928 from "./Images/92-8.jpg";
 import img9210 from "./Images/92-10.jpg";
+import img931 from "./Images/93-1.jpg";
+import img932 from "./Images/93-2.jpg";
+import img934 from "./Images/93-4.jpg";
+import img935 from "./Images/93-5.jpg";
+import img936 from "./Images/93-6.jpg";
+import img937 from "./Images/93-7.jpg";
 
 const autoQuestions = [
     {
@@ -2714,129 +2720,124 @@ const autoQuestions = [
             }
         ]
     },
-/* Bilet 22 */
-/*     {
-    bilet:22,
+/* Bilet 23 */
+    {
+    bilet:23,
     questions: [
         {
             id:1,
-            img:img921,
-            question:`Ushbu svetafor qaysi yo'nalishda harakatlanishga ruxsat beradi?`,
+            img:img931,
+            question:`Rasmda ko'rsatilgan chorhha-...`,
             answers: [
-                `To'g'riga va chapga`,
-                `To'g'riga va o'ngga`,
-                `Faqat chapga`,
+                `Tartibga solinmagan, teng ahamiyatga ega bo'lmagan yo'llar kesishadigan chorrah`,
+                `Tartibga solingan chorraha`,
+                `Tartibga solinmagan, teng ahamiyatga ega bo'lgan yo'llar kesishadigan chorraha`,
                 `Faqat o'ngga`,
                 
             ],
-            trueAnswer: `To'g'riga va o'ngga`
+            trueAnswer: `Tartibga solinmagan, teng ahamiyatga ega bo'lmagan yo'llar kesishadigan chorrah`
         },
         {
             id:2,
-            img:universalImage,
-            question:`Miltillovchi sariq ishorali svtefor:`,
+            img:img932,
+            question:`Yo'nalishli bo'lmagan transport vositalari "A" xarfi bilan belgilangan o'ng bo'lakda qaysi holatlarda harakatlanishlari mumkin?`,
             answers: [
-                `Tartibga solinmagan chorraha yoki piyodalar o'tish joyi borligidan xarardor qiladi`,
-                `Tartibga solingan chorraha borligidan xabardor qiladi`,
-                `Svetafor chirog'i almashuvidan xabardor qiladi`
+                `Yuqoridagi barcha holatlarda agarda yo'nalishli transport vositalariga halaqit bermasa`,
+                `O'nga burilishda`,
+                `Yo'lovchilarni chiqarish va tushirishda`
             ],
-            trueAnswer: `Tartibga solinmagan chorraha yoki piyodalar o'tish joyi borligidan xarardor qiladi`
+            trueAnswer: `Yuqoridagi barcha holatlarda agarda yo'nalishli transport vositalariga halaqit bermasa`
         },
         {
             id:3,
-            img:img923,
-            question:`Yuk avtomobili haydovchisiga qaysi yo'nalishda harakatlanishga ruxsat beriladi?`,
+            img:universalImage,
+            question:`Turar joy dahalarida qanday eng katta tezlikda harakatlanishga ruxsat etiladi?`,
             answers: [
-                `O'ngga, chapga va orqaga`,
-                `Faqat o'ngga`,
-                `To'g'riga va o'ngga`,
-                `Barcha yo'nalishlarda`
+                `20 km/s`,
+                `50 km/s`,
+                `30 km/s`,
+                `40 km/s`
             ],
-            trueAnswer: `To'g'riga va o'ngga`
+            trueAnswer: `30 km/s`
         },
         {
             id:4,
-            img:img924,
-            question:`Qaysi rasmda ikkita qatnov qismiga ega bo'lgan yo'l ko'rsatilgan?`,
+            img:img934,
+            question:`Qaysi belgi ikkinchi darajali yo'l bilan tutashuvni bildiradi?`,
             answers: [
-                `"B" rasmda`,
-                `Hech qaysi rasmda`,
-                `"A" rasmda`
+                `5`,
+                `4`,
+                `2`,
+                `3`
             ],
-            trueAnswer: `Hech qaysi rasmda`
+            trueAnswer: `2`
         },
         {
             id:5,
-            img: img925,
-            question:`Bu vaziyatda siz o'ngga burilayotib, Siz:`,
+            img: img935,
+            question:`Ushbu qo'shimcha axborot yo'l belgisi:`,
             answers: [
-                `Harakat yo'nalishi bo'yicha va burilayotgan ko'chani kesib o'tayotgan piyodalarga hamda boshqa transport `,
-                `Faqat transport vositalariga yo'l berasi`,
-                `Barcha qatnov qismidagi piyodalarga yo'l berasiz`
+                `Belgining ta'sir oralig'ini bildiradi`,
+                `Obyektgacha bo'lgan masofani bildiradi`
             ],
-            trueAnswer: `Harakat yo'nalishi bo'yicha va burilayotgan ko'chani kesib o'tayotgan piyodalarga hamda boshqa transport `
+            trueAnswer: `Obyektgacha bo'lgan masofani bildiradi`
         },
         {
             id:6,
-            img:img926,
-            question:`Ushbu yo'l nechta qatnov qismiga ega?`,
+            img:img936,
+            question:`Ko'k avtomobil chorahhani kesib o'tadi:`,
             answers: [
-                `1`,
-                `4`,
-                `2`
+                `Oxirgi bo'lib`,
+                `Birinchi bo'lib`,
+                `Ikkinchi bo'lib`
             ],
-            trueAnswer: `1`
+            trueAnswer: `Oxirgi bo'lib`
         },
         {
             id:7,
-            img:img927,
-            question:`Qaysi brlgi yo'lning ko'rsatilgan yo'nalishida oxiri berk ko'chaligini bildirad`,
+            img:img937,
+            question:`Ushbu qo'shimcha yo'l belgisi bildiradi:`,
             answers: [
-                `3`,
-                `2`,
-                `5`,
-                `4`,
-                `1`
+                `Belgi ta'sir oralig'ida to'xtagan transport vositalarini evakuatsiya qilish taqiqlanganligini bildiradi`,
+                `Belgi ta'sir oralig'ida to'xtagan transport vositalarini evakuatsiya qilish ruxsat etilganligini bildiradi`,
+                `Belgi ta'sir oralig'ida to'xtagan transport vositalarini majburiy evakuatsiya qilinishini ko'rsatadi`
             ],
-            trueAnswer: `4`
+            trueAnswer: `Belgi ta'sir oralig'ida to'xtagan transport vositalarini majburiy evakuatsiya qilinishini ko'rsatadi`
         },
         {
             id:8,
-            img:img928,
-            question:`Qaysi transport vositalariga harakatlanishga ruxsat berilgan?`,
+            img:universalImage,
+            question:`Aynalma harakatlanish chorrahasida...`,
             answers: [
-                `Motosikl va yengil avtomobilga to'g'riga va o'ngga`,
-                `Motosiklga o'ngga va yengil avtomobilga barcha yo'nalishlarga`,
-                `Yengil avtomobilga to'g'riga va o'ngga`
+                `Harakatlanayotgan transport vositalari aylanaga kirib kelayotgan transport vositalariga nisbatan ustunlikka ega`,
+                `Harakatlanayotgan transport vositalari nisbatan aylanaga kirib kelayotgan transport vositalari  ustunlikka ega`
             ],
-            trueAnswer: `Yengil avtomobilga to'g'riga va o'ngga`
+            trueAnswer: `Harakatlanayotgan transport vositalari aylanaga kirib kelayotgan transport vositalariga nisbatan ustunlikka ega`
         },
         {
             id:9,
             img:universalImage,
-            question:`N1 toifadagi avtotransport vositalarining boshqaruv qurilmasidagi qanday eng katta lyuft yig'indisiga yo'l qo'yiladi?`,
+            question:`Qaysi rasmda ajratuvchi bo'lak ko'rsatilgan?`,
             answers: [
-                `20 gradus`,
-                `25 gradus`,
-                `10 gradus`
+                `"A"`,
+                `""A" va  "B"`,
+                `"B"`
             ],
-            trueAnswer: `20 gradus`
+            trueAnswer: `"A"`
         },
         {
             id:10,
-            img:img9210,
-            question:`Qaysi belgi ikkinchi darajali yo'l bilan kesishuvni bildiradi?`,
+            img:universalImage,
+            question:`Agar avtomobilning o'ng g'ildiraklari nam qoplamali yo'l yoqasiga chiqib qolsa, tavsiya etiladi?`,
             answers: [
-                `4`,
-                `2`,
-                `1`,
-                `3`,
-                `5`
+                `Avtomobilni tormozlash va to'liq to'xtatish`,
+                `Avtomobilni tormozlamasdan, yo'lning harakt qismiga ohista ravon burish`,
+                `Avtomobilni tormozlab, yo'lning harakat qismiga ohista ravon burish`
             ],
-            trueAnswer: `1`
+            trueAnswer: `Avtomobilni tormozlamasdan, yo'lning harakt qismiga ohista ravon burish`
         }
     ]
-    }, */
+    },
 
 ]
 
