@@ -100,6 +100,16 @@ import img934 from "./Images/93-4.jpg";
 import img935 from "./Images/93-5.jpg";
 import img936 from "./Images/93-6.jpg";
 import img937 from "./Images/93-7.jpg";
+import img941 from "./Images/94-1.jpg";
+import img942 from "./Images/94-2.jpg";
+import img943 from "./Images/94-3.jpg";
+import img944 from "./Images/94-4.jpg";
+import img946 from "./Images/94-6.jpg";
+import img947 from "./Images/94-7.jpg";
+import img949 from "./Images/94-9.jpg";
+import img9410 from "./Images/94-10.jpg";
+
+
 
 const autoQuestions = [
     {
@@ -2835,6 +2845,126 @@ const autoQuestions = [
                 `Avtomobilni tormozlab, yo'lning harakat qismiga ohista ravon burish`
             ],
             trueAnswer: `Avtomobilni tormozlamasdan, yo'lning harakt qismiga ohista ravon burish`
+        }
+    ]
+    },
+/* Bilet 24 */
+{
+    bilet:24,
+    questions: [
+        {
+            id:1,
+            img:img941,
+            question:`Ushbu yo'l belgilari qanday maqsadda qo'llaniladi?`,
+            answers: [
+                `Keskin tormoz berish uchun`,
+                `Majburiy tarzda tezlikni kamaytirish uchun`,
+                `Ehtiyot choralarini ko'rish uchun`,
+                
+            ],
+            trueAnswer: `Majburiy tarzda tezlikni kamaytirish uchun`
+        },
+        {
+            id:2,
+            img:img942,
+            question:`Yo'l to'sig'iga chizilgan tik chiziq nimani bildiradi?`,
+            answers: [
+                `Temir yo'l kesishmasiga yqainlashayotganlik haqida`,
+                `Yo'lning kichik radiusli burilish, tik nishablik va boshqa xavfli joylarda yo'l to'silarining yon yuzasini`,
+                `Xavfli chorraha yaqinlashayotganlik haqida`
+            ],
+            trueAnswer: `Yo'lning kichik radiusli burilish, tik nishablik va boshqa xavfli joylarda yo'l to'silarining yon yuzasini`
+        },
+        {
+            id:3,
+            img:img943,
+            question:`Avtomobil haydovchisi qayrilib olmoqchi:`,
+            answers: [
+                `Chorrahaga birinchi bo'lib o'tadi`,
+                `Tramvayga yo'l berib qayrilib oladi`
+            ],
+            trueAnswer: `Tramvayga yo'l berib qayrilib oladi`
+        },
+        {
+            id:4,
+            img:img944,
+            question:`Motosikl haydovchisi qo'lini yuqoriga ko'tarib nima haqida axborot berayapti?`,
+            answers: [
+                `O'ngga burilmoqchi ekanligi haqida`,
+                `Harakatni davom ettirish haqida`,
+                `To'xtash haqida`
+            ],
+            trueAnswer: `To'xtash haqida`
+        },
+        {
+            id:5,
+            img: universalImage,
+            question:`Yo'lning xavfli burilishlarida oldingi uzatmali avtomobilning orqa o'qi yon tomonga sirpanayotganda siz qanday harakat qilasiz?`,
+            answers: [
+                `Gaz berishini kamaytirib rul chambaragi bilan boshqaruvni barqarorlashtirasiz`,
+                `Gaz pedalini ohista bosib, avtomobilni rul chambaragini to'g'rilab, avtomobil sirpanishdan olib ketish`,
+                `Tormoz turib rul chambaragini sirpangan tomonga burasiz`,
+                `Gaz pedalini ko'proq bosib, avtomobilni rul chambaragini o'zgartirmasdan sirpanishdan olib chiqasiz`
+            ],
+            trueAnswer: `Gaz pedalini ohista bosib, avtomobilni rul chambaragini to'g'rilab, avtomobil sirpanishdan olib ketish`
+        },
+        {
+            id:6,
+            img:img946,
+            question:`Qaysi yo'l belgilari yo'lning tor qismida haydovchiga ustunlik beradi?`,
+            answers: [
+                `"B" va "G"`,
+                `"A" va "V"`,
+                `Faqat "V"`,
+                `"B"  va "V"`
+            ],
+            trueAnswer: `"B" va "G"`
+        },
+        {
+            id:7,
+            img:img947,
+            question:`Qaysi belgi yo'lning kichik radiusli xavfli burilish joyiga yaqinlashayotganlik haqida ogohlantiradi?`,
+            answers: [
+                `1`,
+                `3`,
+                `2`,
+                `4`
+            ],
+            trueAnswer: `4`
+        },
+        {
+            id:8,
+            img:universalImage,
+            question:`Avtomobilning  ABS tizimi burilishda sirpanish va yonga siljishni oldini oladimi?`,
+            answers: [
+                `Avtomobil faqat yonga siljish ehtimolining oldini oladi`,
+                `Avtomobil sirpanish va yonga sirpanishini oldini olmaydi`,
+                `Avtomobil faqat sirpanish ehtimolining oldini oladi`
+            ],
+            trueAnswer: `Avtomobil sirpanish va yonga sirpanishini oldini olmaydi`
+        },
+        {
+            id:9,
+            img:img949,
+            question:`Qaysi belgilar axborot-ko'rsatkich belgilari?`,
+            answers: [
+                `3 va 4`,
+                `1 va 2`,
+                `1 va 4`,
+                `2 va 3`
+            ],
+            trueAnswer: `2 va 3`
+        },
+        {
+            id:10,
+            img:img9410,
+            question:`Rasmda ko'rsatilgan chorahha-...`,
+            answers: [
+                `Tartibga solinmagan, teng ahamiyatga ega bo'lgan yo'llar kesishgan chorraha`,
+                `Tartibga solingan chorraha`,
+                `Tartibga solinmagan, teng ahamiyatga ega bo'lmagan yo'llar kesishgan chorraha`
+            ],
+            trueAnswer: `Tartibga solingan chorraha`
         }
     ]
     },
