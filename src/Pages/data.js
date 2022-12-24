@@ -108,6 +108,10 @@ import img946 from "./Images/94-6.jpg";
 import img947 from "./Images/94-7.jpg";
 import img949 from "./Images/94-9.jpg";
 import img9410 from "./Images/94-10.jpg";
+import img953 from "./Images/95-3.jpg";
+import img954 from "./Images/95-4.jpg";
+import img957 from "./Images/95-7.jpg";
+import img9510 from "./Images/95-10.jpg";
 
 
 
@@ -2849,7 +2853,7 @@ const autoQuestions = [
     ]
     },
 /* Bilet 24 */
-{
+    {
     bilet:24,
     questions: [
         {
@@ -2968,7 +2972,124 @@ const autoQuestions = [
         }
     ]
     },
-
+/* Bilet 25 */
+    {
+    bilet:25,
+    questions: [
+        {
+            id:1,
+            img:universalImage,
+            question:`Piyodalar to'xtab turgan avtobus va trolleybusning qaysi tomonidan yo'lni kesib o'tishlari kerak?`,
+            answers: [
+                `Orqa tomonidan`,
+                `Oldi tomonidan`,
+                `Istalgan tomonidan`,
+                
+            ],
+            trueAnswer: `Orqa tomonidan`
+        },
+        {
+            id:2,
+            img:universalImage,
+            question:`Shatakka olingan avtobusda odam tashishga ruxsat etiladimi?`,
+            answers: [
+                `Taqiqlanadi`,
+                `Faqat o'tirgan holda tashishga ruxsat beriladi`,
+                `Ruxsat beriladi`
+            ],
+            trueAnswer: `Taqiqlanadi`
+        },
+        {
+            id:3,
+            img:img953,
+            question:`Ushbu yo'l belgisi:`,
+            answers: [
+                `Chorraha oldida to'suvchi qurilma borligini bildiradi`,
+                `Qatnov qismida to'suvchi qurilma borligini bildiradi`,
+                `Temir yo'l kesishmasi oldida to'suvchi qurilma borligini bildiradi`
+            ],
+            trueAnswer: `Temir yo'l kesishmasi oldida to'suvchi qurilma borligini bildiradi`
+        },
+        {
+            id:4,
+            img:img954,
+            question:`Qaysi transport vositasiga harakatlanish taqiqlangan?`,
+            answers: [
+                `Hech kimga taqiqlanmagan`,
+                `Motosiklga`,
+                `Yuk avtomobiliga`
+            ],
+            trueAnswer: `Yuk avtomobiliga`
+        },
+        {
+            id:5,
+            img: universalImage,
+            question:`108 km/s tezlikda harakatlanayotgan avtomobil 1 sekundda qancha masofani bosib o'tadi?`,
+            answers: [
+                `30 m`,
+                `20 m`,
+                `15 m`
+            ],
+            trueAnswer: `Gaz pedalini ohista bosib, avtomobilni rul chambaragini to'g'rilab, avtomobil sirpanishdan olib ketish`
+        },
+        {
+            id:6,
+            img:universalImage,
+            question:`Yengil avtomobil burilishda ag'darilib ketishga qarshi turg'unroq:`,
+            answers: [
+                `Yo'lovchilari va yuksiz`,
+                `Yo'lovchisiz va yuksiz`,
+                `Yo'lovchi va yuki bilan`,
+                `Yo'lovchisiz, biroq yuqori yukxonasidagi yuki bilan"`
+            ],
+            trueAnswer: `Yo'lovchisiz va yuksiz`
+        },
+        {
+            id:7,
+            img:img957,
+            question:`Chap tomondagi yondosh hududdan foydalanib qayrilib olishning ko'rsatilgan qaysi usuli harakat xavfsizligini ta'minlaydi?`,
+            answers: [
+                `Ikkisida ham`,
+                `Faqat chap tomondagi rasmda`,
+                `Faqat o'ng tomondagi rasmda`
+            ],
+            trueAnswer: `Faqat o'ng tomondagi rasmda`
+        },
+        {
+            id:8,
+            img:universalImage,
+            question:`Qaysi javobda orqaga harakatlanish taqiqlangan joylar ko'rsatilgan?`,
+            answers: [
+                `Tunnellarda`,
+                `Barcha javoblar to'g'ri`,
+                `Piyodalar o'tish joyida`
+            ],
+            trueAnswer: `Barcha javoblar to'g'ri`
+        },
+        {
+            id:9,
+            img:universalImage,
+            question:`Haydovchi o'zidan oldinda harakatlanayotgan transport vositasi bilan qancha oraliq masofa saqlab harakatlanishi kerak?`,
+            answers: [
+                `20 m`,
+                `50 m`,
+                `Haydovchi o'zidan oldinda harakatlanayotgan transport vositasi keskin tormoz berganda to'qnashib ketmasligini`
+            ],
+            trueAnswer: `Haydovchi o'zidan oldinda harakatlanayotgan transport vositasi keskin tormoz berganda to'qnashib ketmasligini`
+        },
+        {
+            id:10,
+            img:img9510,
+            question:`Chorrahadan oxirgi bo'lib qaysi transport vositasi kesib o'tadi?`,
+            answers: [
+                `Oq avtomobil sariq bilan bir vaqtda`,
+                `Qizil avtomobil`,
+                `Sariq avtomobil`
+            ],
+            trueAnswer: `Oq avtomobil sariq bilan bir vaqtda`
+        }
+    ]
+    },
 ]
 
 export default autoQuestions;
