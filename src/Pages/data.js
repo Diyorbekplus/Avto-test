@@ -133,6 +133,11 @@ import img994 from "./Images/99-4.jpg";
 import img997 from "./Images/99-7.jpg";
 import img998 from "./Images/99-8.jpg";
 import img999 from "./Images/99-9.jpg";
+import img1001 from "./Images/100-1.jpg";
+import img1004 from "./Images/100-4.jpg";
+import img1005 from "./Images/100-5.jpg";
+import img1006 from "./Images/100-6.jpg";
+import img1007 from "./Images/100-7.jpg";
 
 
 
@@ -3586,6 +3591,125 @@ const autoQuestions = [
             },
         ]
     },
+/* Bilet 30 */
+{
+    bilet:30,
+    questions: [
+        {
+            id:1,
+            img:img1001,
+            question:`Tartibga solinmagan chorrahada qaysi belgi albatta to'xtashni talab qiladi?`,
+            answers: [
+                `Faqat "B"`,
+                `Hammasi`,
+                `Faqat "A"`,
+                `Faqat "B" va "V"`,
+            ],
+            trueAnswer: `Faqat "B"`
+        },
+        {
+            id:2,
+            img:universalImage,
+            question:`Qatnov qismi yo'l chiziqlari bilan ajratilgan bo'lsa haydovchilar qanday holatlarda qat'iy bo'laklar bo'yicha harakatlanishlari kerak?`,
+            answers: [
+                `Faqat harakatlanish bo'laklari uzluksiz sidirg'a chiziqlar bilan ajratilgan bo'lsa`,
+                `Faqat harakatlanish serqatnov bo'lganda`,
+                `Barcha holatlarda`,
+
+            ],
+            trueAnswer: `Barcha holatlarda`
+        },
+        {
+            id:3,
+            img:universalImage,
+            question:`Qaysi transport vositalari yo'nalishli transport vositalari hisoblanadi?`,
+            answers: [
+                `Yo'lovchilarni tashuvchi istalgan transport vositalari`,
+                `Belgilangan yo'nalishi va bekatlari bo'lgan yo'lovchi tashish uchun mo'ljallangan transport vositalari`,
+                `Avtobuslar`
+            ],
+            trueAnswer: `Belgilangan yo'nalishi va bekatlari bo'lgan yo'lovchi tashish uchun mo'ljallangan transport vositalari`
+        },
+        {
+            id:4,
+            img:img1004,
+            question:`Qaysi belgi tartibga solinmagan piyodalar o'tish joyiga yaqinlashayotganlik haqida ogohlantiradi?`,
+            answers: [
+                `"A"`,
+                `Hammasi`,
+                `"A" "B"`
+            ],
+            trueAnswer: `"A"`
+        },
+        {
+            id:5,
+            img: img1005,
+            question:`Qaysi holatlarda aholi punktlarida tovushli ishoralardan foydalanish mumkin?`,
+            answers: [
+                `Qizil avtomobil`,
+                `Yashil avtomobil`,
+                `Yashil avtomobil tramvay bilan bir vaqtda`
+            ],
+            trueAnswer: `Yashil avtomobil tramvay bilan bir vaqtda`
+        },
+        {
+            id:6,
+            img: img1006,
+            question:`Ko'rsatilgan belgilardan qaysilarining talabi bevosita o'rnatilgan joyidan kuchga kiradi?`,
+            answers: [
+                `"A" va "B"`,
+                `Hammasi`,
+                `"B"`
+            ],
+            trueAnswer: `"A" va "B"`
+        },
+        {
+            id:7,
+            img:img1007,
+            question:`Chorrahdan birinchi bo'lib kesib o'tadi`,
+            answers: [
+                `Qizil avtomobil`,
+                `Ko'k avtomobil`,
+                `Yashil avtomobil`
+            ],
+            trueAnswer: `Yashil avtomobil`
+        },
+        {
+            id:8,
+            img:universalImage,
+            question:`Yengil avtomobilning tormoz yo'li tormoz tizimiga ega bo'lmagan tirkama bilan harakatlanayotganida qanday o'zgaradi?`,
+            answers: [
+                `Ortadi`,
+                `Kamayadi, chunki tirkama haraktlanishga qo'shimcha qarshilik ko'rsatadi`,
+                `Kamayadi`
+            ],
+            trueAnswer: `Ortadi"`
+        },
+        {
+            id:9,
+            img:universalImage,
+            question:`Old chiroqlar va orqa gabarit chiroqlari ishlamayotgan transport vositasi harakatini davom ettirishi taqiqlanadi?`,
+            answers: [
+                `Faqat kunning qorong'u vaqtida`,
+                `Faqat yetarli ko'rinmaslikda`,
+                `Barcha javoblarda ko'rsatilgan holatlarda`
+            ],
+            trueAnswer: `Barcha javoblarda ko'rsatilgan holatlarda`
+        },
+        {
+            id:10,
+            img:universalImage,
+            question:`Asosiy yo'l -`,
+            answers: [
+                `Barcha javoblar to'g'ri`,
+                `Tuproqli yo'lga nisbatan qattiq qoplamali (asfalt va sement betonli, tosh va shunga o'xshashlar yotqizilgan)`,
+                `Toshli yo'lga nisbatan asfalt qoplamali yo'l`,
+                `Ikki bo'lakli yo'lga nisbatan uch yoki undan ko'p bo'lakli yo'l`
+            ],
+            trueAnswer: `Tuproqli yo'lga nisbatan qattiq qoplamali (asfalt va sement betonli, tosh va shunga o'xshashlar yotqizilgan)`
+        },
+    ]
+},
 ]
 
 export default autoQuestions;
