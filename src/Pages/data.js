@@ -112,6 +112,27 @@ import img953 from "./Images/95-3.jpg";
 import img954 from "./Images/95-4.jpg";
 import img957 from "./Images/95-7.jpg";
 import img9510 from "./Images/95-10.jpg";
+import img961 from "./Images/96-1.jpg";
+import img963 from "./Images/96-3.jpg";
+import img965 from "./Images/96-5.jpg";
+import img966 from "./Images/96-6.jpg";
+import img968 from "./Images/96-8.jpg";
+import img969 from "./Images/96-9.jpg";
+import img9610 from "./Images/96-10.jpg";
+import img973 from "./Images/97-3.jpg";
+import img975 from "./Images/97-5.jpg";
+import img976 from "./Images/97-6.jpg";
+import img981 from "./Images/98-1.jpg";
+import img982 from "./Images/98-2.jpg";
+import img983 from "./Images/98-3.jpg";
+import img984 from "./Images/98-4.jpg";
+import img9810 from "./Images/98-10.jpg";
+import img991 from "./Images/99-1.jpg";
+import img993 from "./Images/99-3.jpg";
+import img994 from "./Images/99-4.jpg";
+import img997 from "./Images/99-7.jpg";
+import img998 from "./Images/99-8.jpg";
+import img999 from "./Images/99-9.jpg";
 
 
 
@@ -1187,7 +1208,7 @@ const autoQuestions = [
             {
                 id:10,
                 img:universalImage,
-                question:`Piyodalar to'xtab turgan avtobus va trolleybusning qaysi tomonidan yo'lni kesib o'tishlari kerak?`,
+                question:`Piyodalar to'xtab turgan avtobus va trolleybusning qaysi  yo'lni kesib o'tishlari kerak?`,
                 answers: [
                     `Old tomondan`,
                     `Orqa tomondan`,
@@ -3089,6 +3110,481 @@ const autoQuestions = [
             trueAnswer: `Oq avtomobil sariq bilan bir vaqtda`
         }
     ]
+    },
+/* Bilet 26 */
+    {
+    bilet:26,
+    questions: [
+        {
+            id:1,
+            img:img961,
+            question:`O'ng tomondagi yondosh hududan foydalanib qayrilib olishning ko'rsatilgan qaysi usuli harakat xavfsizligini ta'minlaydi.`,
+            answers: [
+                `Faqat chap tomondagi suratda`,
+                `Har ikki suratda`,
+                `Faqat o'ng tomondagi suratda`,
+                
+            ],
+            trueAnswer: `Faqat chap tomondagi suratda`
+        },
+        {
+            id:2,
+            img:universalImage,
+            question:`Haydovchi yo'lning relssiz transport vositalari harakatlanayotgan bo'laklar sonini belgilaydigan chiziqlar yoki yo'l belgilari bo'lmasa, bo'laklar sonini qanday aniqlash kerak?`,
+            answers: [
+                `Bunday yo'lni ikki bo'lakli qarama-qarshi harakat tashkil qilingfan yo'l deb qabul qilish kerak`,
+                `Qatnov qismining kengligi, transport vositalari orasidagi zarur yonlama oraliq masofani va ularning`
+            ],
+            trueAnswer: `Qatnov qismining kengligi, transport vositalari orasidagi zarur yonlama oraliq masofani va ularning`
+        },
+        {
+            id:3,
+            img:img963,
+            question:`Chapga burilayotgan sariq avtomobil haydovchisi qaysi bo'lakni egallashi kerak?`,
+            answers: [
+                `O'rta bo'lakni`,
+                `Chap bo'lakni`,
+                `O'ng bo'lakni`,
+                `Istalgan bo'lakni`
+            ],
+            trueAnswer: `Istalgan bo'lakni`
+        },
+        {
+            id:4,
+            img:universalImage,
+            question:`Yo'lning qatnov qismi-...`,
+            answers: [
+                `Yo'lning avtomobillar harakati uchun mo'ljallangan qismi`,
+                `Yo'lning relssiz transport vositalari harakati uchun mo'ljallangan qismi`,
+                `Yo'lning transport vositalari harakati uchun mo'ljallangan qismi`
+            ],
+            trueAnswer: `Yo'lning relssiz transport vositalari harakati uchun mo'ljallangan qismi`
+        },
+        {
+            id:5,
+            img: img965,
+            question:`Qaysi yo'l belgilari yo'nalishsiz transport vositalariga chapga burilishni taqiqlaydi?`,
+            answers: [
+                `Hammasi`,
+                `"A" va "B"`,
+                `Faqat "A"`,
+                `"A" va "V"`
+            ],
+            trueAnswer: `"A" va "V"`
+        },
+        {
+            id:6,
+            img: img966,
+            question:`Ushbu yo'l belgisi qanday nomlanadi?`,
+            answers: [
+                `Katta o'lchamli yuklarni tashish taqiqlangan`,
+                `Yuk avtomobillari bilan quvib o'tish taqiqlangan`,
+                `Xavfli yuk tashiyotgan transport vositasining harakati taqiqlangan`
+            ],
+            trueAnswer: `Xavfli yuk tashiyotgan transport vositasining harakati taqiqlangan`
+        },
+        {
+            id:7,
+            img:universalImage,
+            question:`M toifadagi transport vositalari bu:`,
+            answers: [
+                `Tirkamalar (yarim tirkamalar ham)`,
+                `Kamida to'rt g'ildirakka ega bo'lgan va yo'lovchilarni tashish uchun foydalaniladigan nexanik transport vositasi`,
+                `Faqat o'ng tomondagiYuk tashish uchun mo'ljallangan, eng katta vazni 3.5 t dan oshmaydigan avtotransport vositalari`
+            ],
+            trueAnswer: `Kamida to'rt g'ildirakka ega bo'lgan va yo'lovchilarni tashish uchun foydalaniladigan nexanik transport vositasi`
+        },
+        {
+            id:8,
+            img:img968,
+            question:`Balandlika yo'l chetida to'siq mavjud bo'lganda to'xtagan avtomobilni joyidan g'ildirab ketishini oldini olish uchun oldingi g'ildiraklarni burib qo'yish usuli qaysi javobda to'g'ri ko'rsatilgan?`,
+            answers: [
+                `"A" va "G""`,
+                `"B" va "V"`,
+                `"A" va "V"`,
+                `"B" va "G"`
+            ],
+            trueAnswer: `"A" va "V"`
+        },
+        {
+            id:9,
+            img:img969,
+            question:`Qaysi rasmdagi avtomobil haydovchisi yuk tashish qoidasini buzayapti?`,
+            answers: [
+                `"A" va "B"`,
+                `"B"`,
+                `"A"`
+            ],
+            trueAnswer: `"A"`
+        },
+        {
+            id:10,
+            img:img9610,
+            question:` Chorrahani oxirgi bo'lib qaysi transport vositasi kesib o'tadi?`,
+            answers: [
+                `Qizil avtomobil`,
+                `Yashil avtomobil`,
+                `Ko'k avtomobil`
+            ],
+            trueAnswer: `Qizil avtomobil`
+        }
+    ]
+    },
+/* Bilet 27 */
+    {
+    bilet:27,
+    questions: [
+        {
+            id:1,
+            img:universalImage,
+            question:`Siz to'g'ri yo'lga harakatlanayotib to'satdan yo'lning qisman katta bo'lmagan sirpanchiq qismiga duch keldingiz. Bunda qanday ehtiyot choralarini ko'rasiz?`,
+            answers: [
+                `Rulni burib sirpanchiqad chiqib ketish`,
+                `Avtomobilni ohista to'xtatish`,
+                `Harakat yo'nalishini va tezlikni o'zgartirmasdan ehtiyotkorlik bilan o'tib ketish`,
+                
+            ],
+            trueAnswer: `Harakat yo'nalishini va tezlikni o'zgartirmasdan ehtiyotkorlik bilan o'tib ketish`
+        },
+        {
+            id:2,
+            img:universalImage,
+            question:`Turar joy dahasidan yo'lga chiqishda yo'l berish zarur:`,
+            answers: [
+                `O'ng tomondan yaqinlashib kelayotgan transport vositalariga`,
+                `Barcha transport vositalariga`,
+                `Chap tomondan yaqinlashib kelayotgan transport vositalariga`,
+                `Ko'k rangli yalt-yalt etuvchi chiroq-mayoqcha yoqilgan transport vositalariga`
+
+            ],
+            trueAnswer: `Barcha transport vositalariga`
+        },
+        {
+            id:3,
+            img:img973,
+            question:`Ko'rsatilgan belgilardan qaysi biri faqat shu belgi o'rnatilgan bo'lakka ta'sir qiladi?`,
+            answers: [
+                `"B" va "V"`,
+                `Faqat "A"`,
+                `Faqat "B"`
+            ],
+            trueAnswer: `Faqat "A"`
+        },
+        {
+            id:4,
+            img:universalImage,
+            question:`Yo'lovchilarga taqiqlanadi:`,
+            answers: [
+                `Harakatlanayotgan bortli yuk avtomobillarida tik turish, bortlarda yoki undan yuk ustida`,
+                `Transport vositasi harakatlanayotgan vaqtda uning eshigini ochish`,
+                `Barcha javoblar to'g'ri`,
+                `Transport vositalari harakatlanayotgan vaqtda haydovchi boshqarishdan chalg'itish va unga xalaqit berish`
+            ],
+            trueAnswer: `Barcha javoblar to'g'ri`
+        },
+        {
+            id:5,
+            img: img975,
+            question:`Harakatlanish bo'lagidagi uchburchak shaklidagi chiziq:`,
+            answers: [
+                `Yo'l berishingiz kerak bo'lgan joy yaqinlashayotganligi haqida ogohlantiradi`,
+                `To'xtashingiz zarur bo'lgan joyni bildiradi`,
+                `Yo'lning xavli qismini bildiradi`
+            ],
+            trueAnswer: `Yo'l berishingiz kerak bo'lgan joy yaqinlashayotganligi haqida ogohlantiradi`
+        },
+        {
+            id:6,
+            img: img976,
+            question:`Sariq avtomobil chorrahani nechanchi bo'lib kesib o'tadi?`,
+            answers: [
+                `Oxirgi bo'lib`,
+                `Ikkinchi bo'lib`,
+                `Uchinchi bo'lib`
+            ],
+            trueAnswer: `Oxirgi bo'lib`
+        },
+        {
+            id:7,
+            img:universalImage,
+            question:`Harakatlanish bo'lagi-...`,
+            answers: [
+                `Yo'lning relssiz transport vositalaru uchun mo'ljallangan qismi`,
+                `Avtomobillarning bir qator bo'lb harakatlanishi uchun yetarlicha keng bo'lgan, yo'l chiziqlari bilan`,
+                `Yo'ning yonma-yon joylashgan qatnov qismlarini ajratuvchi, transport vositalari harakatlanishi yoki`
+            ],
+            trueAnswer: `Avtomobillarning bir qator bo'lb harakatlanishi uchun yetarlicha keng bo'lgan, yo'l chiziqlari bilan`
+        },
+        {
+            id:8,
+            img:universalImage,
+            question:`exanik transport vositalarini shatakka olishda egiluvchan ulagichga kamidan nechta ogohlantiruvchi qurilma o'rnatiladi?`,
+            answers: [
+                `Kamida uchta`,
+                `Kamida bitta`,
+                `Kamida ikkita`
+            ],
+            trueAnswer: `Kamida ikkita`
+        },
+        {
+            id:9,
+            img:universalImage,
+            question:`Svetofor ishoralari imtiyoz belgilari talablariga zid kelgan hollarda:`,
+            answers: [
+                `Haydovchilar svetafor ishoralariga amal qilishlari kerak`,
+                `Haydovchilar imtiyoz belgilariga amal qilishlari kerak`
+            ],
+            trueAnswer: `Haydovchilar svetafor ishoralariga amal qilishlari kerak`
+        },
+        {
+            id:10,
+            img:universalImage,
+            question:`Temir yo'l kesishmalari va ularga yaqin joylarda quvib o'tishga tegishli qanday yo'l harakati qoidalari amal qiladi?`,
+            answers: [
+                `Temir yo'l kesishmalarida va ularga 100m dan kam masofa qolganda quvib o'tish taqiqlanadi`,
+                `Temir yo'l kesishmalarida va ularga 100m dan kam masofa qolganda va temir kesishmalaridan keyib quvib o'tish taqiqlanadi`,
+                `Quvib o'tish faqat temir yo'l keshimalaridan keyin taqiqlanadi`
+            ],
+            trueAnswer: `Temir yo'l kesishmalarida va ularga 100m dan kam masofa qolganda quvib o'tish taqiqlanadi`
+        },
+    ]
+    },
+/* Bilet 28 */
+    {
+    bilet:28,
+    questions: [
+        {
+            id:1,
+            img:img981,
+            question:`Chorrahani ikkinchi bo'lib kesib o'tadi`,
+            answers: [
+                `Avtomobil`,
+                `Motosikl`,
+                `Tramvay`,
+                
+            ],
+            trueAnswer: `Avtomobil`
+        },
+        {
+            id:2,
+            img:img982,
+            question:`Kunning yorug' vaqtida harakatlanayotgan qaysi rasmdagi avtomobil haydovchisi yuk tashish qoidasini buzayapti?`,
+            answers: [
+                `Har ikkalasida`,
+                `A`,
+                `Hech kim buzmayapti`,
+
+            ],
+            trueAnswer: `Hech kim buzmayapti`
+        },
+        {
+            id:3,
+            img:img983,
+            question:`Ko'rsatilgan qaysi yo'l belgisi yengil yo'nalishsiz taksilarga yo'lovchilarni tushirish-chiqarish (yuklarni ortish-tushirish) vaqtida ta'sir qilmaydi?`,
+            answers: [
+                `Faqat "B", "C" va "D"`,
+                `Faqat "C"`,
+                `Faqat "A"`,
+                `Hammasi`
+            ],
+            trueAnswer: `Hammasi`
+        },
+        {
+            id:4,
+            img:img984,
+            question:`Chorrahadan oxirgi bo'lib qaysi transport vositasi kesib o'tadi?`,
+            answers: [
+                `Avtomobil`,
+                `Avtobus`,
+                `Velosiped`
+            ],
+            trueAnswer: `Avtomobil`
+        },
+        {
+            id:5,
+            img: universalImage,
+            question:`Avtomagistralda to'xtashga ruxsat etilgan`,
+            answers: [
+                `Qatnov qismini chetida barcha joyda`,
+                `Faqat qatnov qismini chetini bildiruvchi chiziqdan chetda`,
+                `5.15 yoki 6.11 yo'l belgilari bilan belgilangan maxsus to'xtab turish maydonchalarida`
+            ],
+            trueAnswer: `5.15 yoki 6.11 yo'l belgilari bilan belgilangan maxsus to'xtab turish maydonchalarida`
+        },
+        {
+            id:6,
+            img: universalImage,
+            question:`Qaysi holatlarda jabrlanuvchiga yurak-o'pka reanimatsiyasini boshlash kerak?`,
+            answers: [
+                `Yurak sohasida og'riq sezilganda va nafas olish qiyinlashganda`,
+                `Hushidan ketishda, nafas olish faoliyati va qon aylanishi to'xtaganda`,
+                `Hushidan ketishda, nafas olish faoliyatidan qat'iy nazar`
+            ],
+            trueAnswer: `Hushidan ketishda, nafas olish faoliyati va qon aylanishi to'xtaganda`
+        },
+        {
+            id:7,
+            img:universalImage,
+            question:`Agar piyodalar o'tish joylaridan keyin tirbandlik  paydo bo'lsa haydovchi qayerga to'xtashi kerak?`,
+            answers: [
+                `Bevosita piyodalar o'tish joyi oldida`,
+                `Piyodalar o'tish joyiga 5 m yetmasdan`,
+                `Piyodalar o'tish joyiga, agar piyodalar bo'lmasa`
+            ],
+            trueAnswer: `Bevosita piyodalar o'tish joyi oldida`
+        },
+        {
+            id:8,
+            img:universalImage,
+            question:`To'la vazni 3,5 tonnadan oshmaydigan yuk avtomobillarini quyidagilar bilan jihozlanmagan bo'lsa ham foydalanishga ruxsat etiladi?`,
+            answers: [
+                `Majburiy to'xtaganni bildiruvchi belgi yoki miltillovchi qizil chiroq`,
+                `O't o'chirgich`,
+                `O'zi yurib ketishidan saqlovchi, g'ildirak diametriga muvofiq (kamida 2 ta) tirgak`,
+                `Tibbiyot qutichasi`
+            ],
+            trueAnswer: `O'zi yurib ketishidan saqlovchi, g'ildirak diametriga muvofiq (kamida 2 ta) tirgak`
+        },
+        {
+            id:9,
+            img:universalImage,
+            question:`Trotuar va piyodalar yo'lkasi bo'lmaganda bolalar guruhini yo'lda qanday tartibda olib yurish mumkin?`,
+            answers: [
+                `Qatnov qismi chetidan katta yoshdagilar kuzatuvida olib yurishga ruxsat etiladi`,
+                `Yo'l yoqasidan faqat kunduzi va katta yoshdagilar kuzatuvida olib yurishga ruxsat etiladi`
+            ],
+            trueAnswer: `Qatnov qismi chetidan katta yoshdagilar kuzatuvida olib yurishga ruxsat etiladi`
+        },
+        {
+            id:10,
+            img:img9810,
+            question:`Bu qo'shimcha-axborot yo'l belgisi qaysi yo'l belgisi bilan birgalikda qo'llaniladi?`,
+            answers: [
+                `"A"`,
+                `"B"`,
+                `"C"`
+            ],
+            trueAnswer: `"B`
+        },
+    ]
+    },
+/* Bilet 29 */
+    {
+        bilet:29,
+        questions: [
+            {
+                id:1,
+                img:img991,
+                question:`Chorrahadan birinchi bo'lib qaysi transport vositasi kesib o'tadi?`,
+                answers: [
+                    `Qizil avtomobil`,
+                    `Ko'k avtomobil`,
+                    `Yashil avtomobil`,
+                    
+                ],
+                trueAnswer: `Yashil avtomobil`
+            },
+            {
+                id:2,
+                img:universalImage,
+                question:`Qo'l oyoq uchlari (tirsakdan past qismi, boldir) sinishida transport shinalari yoki ularni qo'lda yasash uchun vositalar bo'lmasa birinchi tibbiy yordam qanday ko'rsatiladi?`,
+                answers: [
+                    `Qo'llarni tirsakdan bukib, romolga osgan holda bo'g'lash, oyoqlarning orasiga yumshoq mato qo'yib bir-birga bo'g'lash`,
+                    `Qo'llarni tirsakdan bukib, romolga osgan holda bog'lash, oyoqlarni bir biriga yaxshilab jipslash`,
+                    `Qo'llarni tana bo'ylab cho'zgan holda tanaga bog'lash, oyoqlarni yumshoq mato qo'yib bir-biriga bog'lash`,
+    
+                ],
+                trueAnswer: `Qo'llarni tirsakdan bukib, romolga osgan holda bo'g'lash, oyoqlarning orasiga yumshoq mato qo'yib bir-birga bo'g'lash`
+            },
+            {
+                id:3,
+                img:img993,
+                question:`Ushbu "50" yozuvli yo'l belgisi nimani bildradi?`,
+                answers: [
+                    `Yo'lning ushbu qismida ruxsat berilgan eng yuqori tezlikni`,
+                    `Yo'l yoki marshrut raqamini`,
+                    `Yo'lning ushbu qismida tavsiya etilgan tezlik`
+                ],
+                trueAnswer: `Yo'lning ushbu qismida ruxsat berilgan eng yuqori tezlikni`
+            },
+            {
+                id:4,
+                img:img994,
+                question:`Qaysi rasmdagi avtomobil haydovchisi yuk tashish qoidasini buzayapti?`,
+                answers: [
+                    `"A"`,
+                    `"B"`,
+                    `"A" "B"`
+                ],
+                trueAnswer: `"A"`
+            },
+            {
+                id:5,
+                img: universalImage,
+                question:`Qaysi holatlarda aholi punktlarida tovushli ishoralardan foydalanish mumkin?`,
+                answers: [
+                    `Barcha javoblarda ko'rsatilgan holatlarda`,
+                    `Faqat zarur bo'lgan hollarda yo'l -transport hodisasining oldini olish uchun`,
+                    `Faqat boshqa haydovchilarni quvib o'yish haqida ogohlantirish uchun`
+                ],
+                trueAnswer: `Faqat zarur bo'lgan hollarda yo'l -transport hodisasining oldini olish uchun`
+            },
+            {
+                id:6,
+                img: universalImage,
+                question:`Turar joy dahalarida piyodalar yo'lning qaysi qismida harakatlanishi kerak?`,
+                answers: [
+                    `Faqat trotuar bo'yida`,
+                    `Trotuar yoki qatnov qismidan`,
+                    `Qatnov qismi chetida bir qator bo'lib`
+                ],
+                trueAnswer: `Trotuar yoki qatnov qismidan`
+            },
+            {
+                id:7,
+                img:img997,
+                question:`Chorrahadan uchinchi bo'lib avtomobil kesib o'tadi?`,
+                answers: [
+                    `Qizil avtomobil`,
+                    `Ko'k avtomobil`,
+                    `Yashil avtomobil`
+                ],
+                trueAnswer: `Qizil avtomobil`
+            },
+            {
+                id:8,
+                img:img998,
+                question:`Ko'rsatilgan belgilardan qaysi biri ruxsat etilgan to'la vazni 3,5 tonnadan oshmaydigan yuk avtomobillariga harakatlanishga ruxsat beradi?`,
+                answers: [
+                    `Faqat "V"`,
+                    `"A" va "B"`,
+                    `"A" va "V"`
+                ],
+                trueAnswer: `"A" va "V"`
+            },
+            {
+                id:9,
+                img:img999,
+                question:`Ko'rsatilgan qaysi belgi texnik tavsifnomasiga yoki holatiga ko'ra tezligi soatiga 40 kilometrdan kam bo'lgan transport vositalarining harakatlanishini taqiqlaydi?`,
+                answers: [
+                    `"A" va "B"`,
+                    `Faqat "A"`,
+                    `Faqat "V"`
+                ],
+                trueAnswer: `Faqat "A"`
+            },
+            {
+                id:10,
+                img:universalImage,
+                question:`Transport vositasining ruxsat etilgan to'la vazni bu - ...`,
+                answers: [
+                    `Aslahalangan transport vositalarining ishlab chiqargan korxona belgilagan, yuk, haydovchi va yo'lovchi bilan birgalikdagi vazni`,
+                    `Aslahalangan transport vositasining ishlab chiqargan korxona belgilangan, yuksiz, haydovchisiz va yo'lovchisiz`,
+                    `Transport vositasining yuki, haydovchi va yo'lovchilari bilan birgalikdagi vazni`
+                ],
+                trueAnswer: `Aslahalangan transport vositalarining ishlab chiqargan korxona belgilagan, yuk, haydovchi va yo'lovchi bilan birgalikdagi vazni`
+            },
+        ]
     },
 ]
 
