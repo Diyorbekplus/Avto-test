@@ -9,26 +9,12 @@ function Layout() {
     <main className='main-layout'>
     <div className='navbar-page navbar navbar-expand-lg navbar-dark'>
         <div className='container-fluid'>
-        <div className='logo-section'> 
-            <a link="/" className='navbar-brand'><img src={logo}/></a>
-        </div>
         <nav className='links-section'>
-        <ul className='navbar-nav links-section'>
-            <li className='nav-item'>
-                <Link to="/" className='nav-link'>Home</Link>
-            </li>
-
-            <li className='nav-item'>
-                <Link to={"/about"} className='nav-link'>About</Link>
-            </li>
-            <li className='nav-item'>
-                <Link to={"/projects"} className='nav-link'>Projects</Link>
-            </li>
+        <ul className='navbar-nav'>
+            <Link to="/" className='nav-item'><img alt='logo' className='nav-link' src={logo}/> 
+            </Link>
         </ul>
         </nav>
-    <div className='contact-section'>
-        <Link to={"/contact"} className='nav-link'>Contact</Link>
-    </div>
         </div>
     </div>
 

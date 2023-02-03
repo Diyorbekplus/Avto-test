@@ -1,61 +1,40 @@
-import React, {useState, useContext} from "react";
-const AppContext = React.createContext()
+import React, { useContext, useReducer} from "react";
+import reducer from "./reducer";
+import autoQuestions from "./data";
+const AppContext = React.createContext();
+
+const initialState = {
+    visableQuestions: false,
+    visableSelection : false,
+    visableEnterBtn: true,
+    biletNumber: 1,
+    questionNumber: 0,
+    allquestions: autoQuestions
+}
+
 const AppProvider = ({children}) => {
-    const [isQuestionsPageOpen, setQuestionsPage] = useState(false);
-    const [isSelectionPanelOpen, setSelectionPanel] = useState(false);
-    const [isEnterButton, setEnterButton] = useState(true);
-    const [isShowAnswer, setShowAnswer] = useState(false)
+    const [state, dispatch] = useReducer(reducer, initialState)
 
-
-    const openQuestionsPage = () => {
-        setQuestionsPage(true);
-        setSelectionPanel(false)
+    const showQuesionsPage = () =>{
+        dispatch({type: "Show_Questions"})
     }
-    const closeQuestionsPage = () => {
-        setQuestionsPage(false);
-        hideAnswer()
-        openEnterButton()
+    const hideQuesionsPage = () =>{
+        dispatch({type: "Hide_Questions"})
     }
-
-    const openSelectionPanel = () => {
-        setSelectionPanel(true);
-        setEnterButton(false)
+    const showSelectionPanel = () =>{
+        dispatch({type: "Show_Selection"})
     }
-    const closeSelectionPanel = () => {
-        setSelectionPanel(false);
-        openEnterButton()
-    }
- const openEnterButton = () => {
-        setEnterButton(true)
-    }
-    const closeEnterButton = () => {
-        setEnterButton(false)
-    }
-
-    const showAnswer = () => {
-        setShowAnswer(true)
-    }
-    const hideAnswer = () => {
-        setShowAnswer(false)
+    const hideSelectionPanel = () =>{
+        dispatch({type: "Hide_Selection"})
     }
     return (
         <AppContext.Provider
         value={{
-            isQuestionsPageOpen,
-            openQuestionsPage,
-            closeQuestionsPage,
-
-            isSelectionPanelOpen,
-            openSelectionPanel,
-            closeSelectionPanel,
-
-            isEnterButton,
-            closeEnterButton,
-
-            isShowAnswer,
-            showAnswer,
-            hideAnswer
-            
+            ...state,
+            showQuesionsPage,
+            hideQuesionsPage,
+            showSelectionPanel,
+            hideSelectionPanel,
         }}>
             {children}
         </AppContext.Provider>

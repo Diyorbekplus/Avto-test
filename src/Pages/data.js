@@ -100,6 +100,7 @@ import img934 from "./Images/93-4.jpg";
 import img935 from "./Images/93-5.jpg";
 import img936 from "./Images/93-6.jpg";
 import img937 from "./Images/93-7.jpg";
+import img939 from "./Images/93-9.jpg";
 import img941 from "./Images/94-1.jpg";
 import img942 from "./Images/94-2.jpg";
 import img943 from "./Images/94-3.jpg";
@@ -177,31 +178,34 @@ const autoQuestions = [
                 img:universalImage,
                 question:`Svetaforning yashil miltillovchi ishora nimani bildiradi?`,
                 answers: [
-                    `Harakatlanishga ruxsat beradi va tez orada taqiqlovchi ishora yonishi haqida axborot beradi`,
-                    `Harakatlanishni davom ettirishni taqiqlaydi`,
-                    `Svetafor nosozligini bildiradi`,
+                        `Harakatlanishga ruxsat beradi va tez orada taqiqlovchi ishora yonishi haqida axborot beradi`,
+                        `Harakatlanishni davom ettirishni taqiqlaydi`,
+                        `Svetafor nosozligini bildiradi`,
                 ],
                 trueAnswer: `Harakatlanishga ruxsat beradi va tez orada taqiqlovchi ishora yonishi haqida axborot beradi`
+                
             },
             {
                 id:2,
                 img:img712,
                 question:`Ushbu joyda avtomobilni to'xtab turish uchun qo'yishga ruxsat etiladimi?`,
                 answers: [
-                    `Ha`,
-                    `Yo'q`,
+                        `Ha`,
+                        `Yo'q`
                 ],
                 trueAnswer: `Ha`
+
             },
             {
                 id:3,
                 img:img713,
                 question:`Ushbu chorrahada to'g'riga o'tmoqchisiz. Ushbu vaziyatda sizning harakatingiz?`,
                 answers: [
-                    `Qizil avtomobil yo'l berayotganiga ishonch hosil qilib, chorrahadan birinchi o'tish`,
-                    `Chorrahaga birinchi kirgan qizil avtomobilga yo'l berish`,
+                        `Qizil avtomobil yo'l berayotganiga ishonch hosil qilib, chorrahadan birinchi o'tish`,
+                        `Chorrahaga birinchi kirgan qizil avtomobilga yo'l berish`
                 ],
                 trueAnswer: `Qizil avtomobil yo'l berayotganiga ishonch hosil qilib, chorrahadan birinchi o'tish`
+                
             },
             {
                 id:4,
@@ -230,12 +234,12 @@ const autoQuestions = [
                 img:img716,
                 question:`Ushbu belgilardan qaysi biri bir tomonlama harakat tashki qilingan yo'lning boshida o'rnatiladi?`,
                 answers: [
-                    `Faqat "A"`,
-                    `"B" yoki "V"`,
-                    `Faqat "B"`,
-                    `"B" yoki "G"`
+                    `Faqat "А"`,
+                    `"Б" yoki "В"`,
+                    `Faqat "Б"`,
+                    `"Б" yoki "Г"`
                 ],
-                trueAnswer: `Faqat "B"`
+                trueAnswer: `Faqat "Б"`
             },
             {
                 id:7,
@@ -282,7 +286,7 @@ const autoQuestions = [
                     `Ha`
                 ],
                 trueAnswer: `Ha`
-            },
+            }, 
         ]
     },
 /* bilet 2 */
@@ -294,11 +298,11 @@ const autoQuestions = [
                 img:img721,
                 question:"Ko`rsatilgan yo`l belgilaridan qaysi biri faqat yo`l qoplamasi nam bo`lganda ta`sir etadi?",
                 answers: [
-                    `Faqat "A"`,
-                    `Faqat "A" va "B"`,
+                    `Faqat "А"`,
+                    `Faqat "А" va "Б"`,
                     "Barchasi"
                 ],
-                trueAnswer: `Faqat "A"`
+                trueAnswer: `Faqat "А"`
             },
             {
                 id:2,
@@ -342,7 +346,7 @@ const autoQuestions = [
                     `Quvib o'tishda ogohlantirish uchun`,
                     `Sanab o'tilgan har ikki hollarda`
                 ],
-                trueAnswer: `Ruxsat etiladi`
+                trueAnswer: `Yo'l transport hodisasining oldini olish uchun`
             },
             {
                 id:6,
@@ -382,12 +386,12 @@ const autoQuestions = [
                 img:img729,
                 question:`Ko'rsatilgan qaysi belgi sizga yashash manzilingizga avtomobilda o'tishga ruxsat beradi?`,
                 answers: [
-                    `Faqat "A"`,
-                    `Faqat "A" va "B"`,
+                    `Faqat "А"`,
+                    `Faqat "А" va "В"`,
                     `Barchasi`,
-                    `Faqat "B"`,
+                    `Faqat "А"`,
                 ],
-                trueAnswer: `Faqat "A" va "B"`
+                trueAnswer: `Faqat "А" va "В"`
             },
             {
                 id:10,
@@ -421,11 +425,11 @@ const autoQuestions = [
                 img:img732,
                 question:`Ko'rsatilgan belgilardan qaysi biri yo'lning ko'rinish masofaso cheklangan joylarida majburan to'xtagan transport vositalarini belgilash uchun qo'llaniladi?`,
                 answers: [
-                    `Faqat "B"`,
-                    `Faqat "V"`,
-                    `Faqat "A"`
+                    `Faqat "Б"`,
+                    `Faqat "В"`,
+                    `Faqat "А"`
                 ],
-                trueAnswer: `Faqat "A"`
+                trueAnswer: `Faqat "А"`
             },
             {
                 id:3,
@@ -436,7 +440,7 @@ const autoQuestions = [
                     `Taqiqlanadi`,
                     `Har qanday holatda ruxsat etiladi`
                 ],
-                trueAnswer: `Barcha sanab o'tilgan hollarda`
+                trueAnswer: `Ruxsat beriladi agarda bunda harakatning boshqa ishtirokchilariga halaqit bermasa`
             },
             {
                 id:4,
@@ -466,7 +470,7 @@ const autoQuestions = [
                 question:`Haydovchi chapga burilishda qaysi yo'nalish bo'yicha qoidani buzmoqda?`,
                 answers: [
                     `Faqat "A" yo'nalish bo'yicha`,
-                    `Faqat "B" yo'nalish bo'yicha`,
+                    `Faqat "Б" yo'nalish bo'yicha`,
                     `Ko'rsatilgan barcha yo'naishlar bo'yicha`
                 ],
                 trueAnswer: `Ko'rsatilgan barcha yo'naishlar bo'yicha`
@@ -476,11 +480,11 @@ const autoQuestions = [
                 img:img737,
                 question:`Shatakka olib harakatlanishingiz mumkin`,
                 answers: [
-                    `Faqat "A" yo'nalish bo'yicha`,
-                    `Faqat "B" yo'nalish bo'yicha`,
+                    `Faqat "А" yo'nalish bo'yicha`,
+                    `Faqat "Б" yo'nalish bo'yicha`,
                     `Ko'rsatilgan barcha yo'naishlar bo'yicha`
                 ],
-                trueAnswer: `Faqat "A" yo'nalish bo'yicha`
+                trueAnswer: `Faqat "А" yo'nalish bo'yicha`
             },
             {
                 id:8,
@@ -498,23 +502,23 @@ const autoQuestions = [
                 img:img739,
                 question:`Yo'l harakati qoidalari bo'yicha "yonlama oraliq masofa" ni ko'rsating:`,
                 answers: [
-                    `"A" va "V"`,
-                    `Faqat "V"`,
-                    `Faqat "A"`,
-                    `Faqat "B"`,
+                    `"А" va "В"`,
+                    `Faqat "В"`,
+                    `Faqat "А"`,
+                    `Faqat "Б"`,
                 ],
-                trueAnswer: `"A" va "V"`
+                trueAnswer: `"А" va "В"`
             },
             {
                 id:10,
                 img:img7310,
                 question:`Ko'rsatilgan qaysi belgi reversiv harakat boshlanishi haqida axborot beradi?`,
                 answers: [
-                    `"B"`,
-                    `"V"`,
-                    `"A"`
+                    `"Б"`,
+                    `"В"`,
+                    `"А"`
                 ],
-                trueAnswer: `"V"`
+                trueAnswer: `"В"`
             }
         ]
     },
@@ -694,12 +698,12 @@ const autoQuestions = [
                 img:img755,
                 question:`Qaysi yo'l belgisi chapga burilishni taqiqlaydi?`,
                 answers: [
-                    `Faqat "A" va "B"`,
+                    `Faqat "А" va "Б"`,
                     `Barchasi`,
-                    `Faqat "A"`,
-                    `Faqat "A" va "G"`
+                    `Faqat "А"`,
+                    `Faqat "А" va "Г"`
                 ],
-                trueAnswer: `Faqat "A" va "G"`
+                trueAnswer: `Faqat "А" va "Г"`
             },
             {
                 id:6,
@@ -798,13 +802,13 @@ const autoQuestions = [
             {
                 id:4,
                 img:img764,
-                question:`Kunning yorug' vaqtida quyidagi hollarda yaqinni yorituvchi chiroqlar yoqilishi kerak:`,
+                question:`Qaysi qo'shimcha axborot belgilari birga qo'llanilganda belgilarning ta'sir oralig'ini ko'rsatadi?`,
                 answers: [
-                    `Faqat "A"`,
-                    `Faqat "B"`,
-                    `"B" va  "V"`
+                    `Faqat "А"`,
+                    `Faqat "Б"`,
+                    `"Б" va  "В"`
                 ],
-                trueAnswer: `"B" va  "V"`
+                trueAnswer: `"Б" va  "В"`
             },
             {
                 id:5,
@@ -822,12 +826,12 @@ const autoQuestions = [
                 img:img766,
                 question:`Qaysi belgilarda qarama-qarshi harakatlanishda o'tib ketish qiyin bo'lsa, siz yo'l berishingiz kerak?`,
                 answers: [
-                    `"B" va "V"`,
-                    `"A" va "V"`,
-                    `Faqat  "V"`,
-                    `"B" va "G"`
+                    `"Б" va "В"`,
+                    `"А" va "В"`,
+                    `Faqat  "В"`,
+                    `"Б" va "Г"`
                 ],
-                trueAnswer: `"A" va "V"`
+                trueAnswer: `"А" va "В"`
             },
             {
                 id:7,
@@ -845,11 +849,11 @@ const autoQuestions = [
                 img:img768,
                 question:`Qaysi yo'l belgisi piyodalar yo'lkasini bildiradi?`,
                 answers: [
-                    `Faqat "B"`,
-                    `Faqat "B" va "V"`,
+                    `Faqat "Б"`,
+                    `Faqat "Б" va "В"`,
                     `Barchasi`
                 ],
-                trueAnswer: `Faqat "B"`
+                trueAnswer: `Faqat "Б"`
             },
             {
                 id:9,
@@ -906,12 +910,12 @@ const autoQuestions = [
                 img:img773,
                 question:` Ko'rsatilgan yo'l belgilaridan qaysi biri ruxsat etilgan to'la vazni 3,5 tonnadan kam bo'lgan yuk avtomobiliga o'ngga harakatlanishni buyuradi?`,
                 answers: [
-                    `Faqat "B"`,
-                    `"A" va "B"`,
-                    `"B"va "V"`,
-                    `Faqat "A"`
+                    `Faqat "Б"`,
+                    `"А" va "Б"`,
+                    `"Б"va "В"`,
+                    `Faqat "А"`
                 ],
-                trueAnswer: `Faqat "B"`
+                trueAnswer: `Faqat "Б"`
             },
             {
                 id:4,
@@ -972,11 +976,11 @@ const autoQuestions = [
                 img:img779,
                 question:`Qaysi yo'l belgisi barcha transport vositalarining harakatni istisnosiz taqiqlaydi?`,
                 answers: [
-                    `"B"`,
-                    `"V"`,
-                    `"A"`
+                    `"Б"`,
+                    `"В"`,
+                    `"А"`
                 ],
-                trueAnswer: `"B"`
+                trueAnswer: `"Б"`
             },
             {
                 id:10,
@@ -1025,20 +1029,20 @@ const autoQuestions = [
                     `Avtomobilning faqat yonga siljish ehtimolining oldini oladi`,
                     `Avtomobilning faqat sirpanish ehtimolining oldini oladi`
                 ],
-                trueAnswer: `Faqat "B"`
+                trueAnswer: `Avtomobilning sirpanish va yonga siljish ehtimolining oldini olmaydi`
             },
             {
                 id:4,
                 img:img784,
                 question:`Ko'rsatilgan qaysi joyda siz avtomobilni qoidaga binoan to'xtatishingiz mumkin?`,
                 answers: [
-                    `Faqat "B" va  "V"`,
+                    `Faqat "Б" va  "В"`,
                     `Hech qaysisida`,
-                    `Faqat "B"`,
-                    `Faqat "A"`
+                    `Faqat "Б"`,
+                    `Faqat "А"`
 
                 ],
-                trueAnswer: `Faqat "B"`
+                trueAnswer: `Faqat "Б"`
             },
             {
                 id:5,
@@ -1090,10 +1094,10 @@ const autoQuestions = [
                 question:`Shatakka olingan avtomobilni falokat yorug'lik ishoralari nosoz bo'lganda transport vositasi qanday belgilanishi kerak?`,
                 answers: [
                     `Gabarit chiroqlarni yoqish`,
-                    `Shatakka olinga tranport vositasining orqa tomonidga falokat sabab to'xtash belgisini o'rnatish`,
+                    `Shatakka olinga tranport vositasining orqa tomoniga falokat sabab to'xtash belgisini o'rnatish`,
                     `Orqa tomonga qarshi chiroqlarni yoqish`
                 ],
-                trueAnswer: `Shatakka olinga tranport vositasining orqa tomonidga falokat sabab to'xtash belgisini o'rnatish`
+                trueAnswer: `Shatakka olinga tranport vositasining orqa tomoniga falokat sabab to'xtash belgisini o'rnatish`
             },
             {
                 id:10,
@@ -1165,7 +1169,7 @@ const autoQuestions = [
                     `Faqat tovush ishoralarini qo'llab`
 
                 ],
-                trueAnswer: `Yo'q`
+                trueAnswer: `Sanab o'tilgan barcha usul bilan va ularni birgalikda qo'llash bilan`
             },
             {
                 id:6,
@@ -1269,7 +1273,7 @@ const autoQuestions = [
                     `Tepkiga ta'sir etuvchi kuchni o'zgartirmaslik`
 
                 ],
-                trueAnswer: `Tepkiga ta'sir etuvchi kuchni kamaytirisha`
+                trueAnswer: `Tepkiga ta'sir etuvchi kuchni kamaytirish`
             },
             {
                 id:5,
@@ -1298,11 +1302,11 @@ const autoQuestions = [
                 img:img807,
                 question:`To'xtab turish qoidasini kim buzdi?`,
                 answers: [
-                    `Faqat  "B"`,
-                    `"A" va "B"`,
-                    `Faqat  "A"`
+                    `Faqat  "Б"`,
+                    `"А" va "Б"`,
+                    `Faqat  "А"`
                 ],
-                trueAnswer: `Faqat  "B"`
+                trueAnswer: `Faqat  "Б"`
             },
             {
                 id:8,
@@ -1333,9 +1337,9 @@ const autoQuestions = [
                 question:`Qaysi yo'l belgilari qayrilib olishga ruxsat beradi?`,
                 answers: [
                     `Barchasi`,
-                    `Faqat "B" va "G"`,
-                    `Faqat "B"`,
-                    `Faqat "A", "B", va "V"`
+                    `Faqat "Б" va "Г"`,
+                    `Faqat "Б"`,
+                    `Faqat "А", "Б", va "В"`
 
                 ],
                 trueAnswer: `Barchasi`
@@ -1384,12 +1388,12 @@ const autoQuestions = [
         img:img814,
         question:`Quyidagi belgilardan qays biri haydovchini boshq xavf-xatarlar to'g'risida ogohlantiradi?`,
         answers: [
-            `Faqat "B"`,
-            `Faqat "A"`,
-            `Faqat "V"`
+            `Faqat "Б"`,
+            `Faqat "А"`,
+            `Faqat "В"`
 
         ],
-        trueAnswer: `Faqat "V"`
+        trueAnswer: `Faqat "В"`
     },
     {
         id:5,
@@ -1514,14 +1518,14 @@ const autoQuestions = [
         img:img825,
         question:`Qaysi belgi yo'lning tor qismlarida ro'paradan kelayotgan transport vositasiga yo'l berish lozimligini bildiradi?`,
         answers: [
-            `"B"`,
-            `"A"`,
-            `"A" va "G"`,
-            `"G"`,
-            `"B" va "V"`
+            `"Б"`,
+            `"А"`,
+            `"А" va "Г"`,
+            `"Г"`,
+            `"Б" va "В"`
 
         ],
-        trueAnswer: `"A"`
+        trueAnswer: `"А"`
     },
     {
         id:6,
@@ -1551,13 +1555,13 @@ const autoQuestions = [
         img:img828,
         question:`Ushbu belgilardan qaysi biri haydovchining shu joydagi yashash yoki ishlash joyiga yetib borshiga monelik qilmaydi?`,
         answers: [
-            `"A"`,
-            `"C"`,
-            `"B"`,
-            `"B" va "C"`
+            `"А"`,
+            `"С"`,
+            `"Б"`,
+            `"Б" va "С"`
 
         ],
-        trueAnswer: `"C"`
+        trueAnswer: `"С"`
     },
     {
         id:9,
@@ -1575,12 +1579,12 @@ const autoQuestions = [
         img:img8210,
         question:`Ko'rsatilgan yo'l belgilaridan qaysi biri taqiqlovchi belgilar ilgari kiritgan barcha cheklovlarni bekor qiladi?`,
         answers: [
-            `"V" va "G"`,
-            `"A" va "B"`,
+            `"В" va "Г"`,
+            `"А" va "Б"`,
             `Barchasi`,
-            `Faqat "V"`
+            `Faqat "В"`
         ],
-        trueAnswer: `Faqat "V"`
+        trueAnswer: `Faqat "В"`
     }
     ]
     },
@@ -1659,11 +1663,11 @@ const autoQuestions = [
             img:img837,
             question:`Xavfsiz oraliq masofani ko'rsating`,
             answers: [
-                `"A" va "V"`,
-                `"B"`,
-                `"V"`
+                `"А" va "В"`,
+                `"Б"`,
+                `"В"`
             ],
-            trueAnswer: `"B"`
+            trueAnswer: `"Б"`
         },
         {
             id:8,
@@ -1744,13 +1748,13 @@ const autoQuestions = [
             img:img844,
             question:`Qaysi belgi to'xtash chizig'i oldida, u bo'lmaganda, kesib o'tiladigan qatnov qismining chetida to'xtamasdan harakatlanishni taqiqlaydi?`,
             answers: [
-                `"A" va "G"`,
-                `"B"`,
-                `"B" va  "V"`,
-                `"A"`,
-                `"G"`
+                `"А" va "Г"`,
+                `"Б"`,
+                `"Б" va  "В"`,
+                `"А"`,
+                `"Г"`
             ],
-            trueAnswer: `"B"`
+            trueAnswer: `"Б"`
         },
         {
             id:5,
@@ -1767,12 +1771,12 @@ const autoQuestions = [
             img: img846,
             question:`Qaysi belgilar yuk avtomobillarida quvib o'tishning taqiqlangan hududning oxirini bildiradi?`,
             answers: [
-                `Faqat  "B"`,
-                `Faqat  "A"`,
-                `Faqat "A" va  "B"`,
-                `"A", "B" va "V"`
+                `Faqat  "Б"`,
+                `Faqat  "А"`,
+                `Faqat "А" va  "Б"`,
+                `"А", "Б" va "В"`
             ],
-            trueAnswer: `"A", "B" va "V"`
+            trueAnswer: `"А", "Б" va "В"`
         },
         {
             id:7,
@@ -1864,12 +1868,12 @@ const autoQuestions = [
                 img:img854,
                 question:`Qaysi belgi svetaforining (tartibga soluvchining) taqiqlovchi ishorasida transport vositalari to'xtaydigan joyni bildiradi?`,
                 answers: [
-                    `"A"`,
-                    `"V"`,
-                    `"B"`,
-                    `"G"`
+                    `"А"`,
+                    `"В"`,
+                    `"Б"`,
+                    `"Г"`
                 ],
-                trueAnswer: `"V"`
+                trueAnswer: `"В"`
             },
             {
                 id:5,
@@ -1890,7 +1894,7 @@ const autoQuestions = [
                     `"A" va "D"`,
                     `"B"`
                 ],
-                trueAnswer: `"B`
+                trueAnswer: `"B"`
             },
             {
                 id:7,
@@ -1919,11 +1923,11 @@ const autoQuestions = [
                 img:img859,
                 question:` Ko'rsatilgan qaysi belgi yo'lning o'ta sirpanchiq bo'lgan qismini bildiradi?`,
                 answers: [
-                    `"A" va "V"`,
-                    `Faqat "V"`,
-                    `Faqat "A"`
+                    `"А" va "В"`,
+                    `Faqat "В"`,
+                    `Faqat "А"`
                 ],
-                trueAnswer: `Faqat "V"`
+                trueAnswer: `Faqat "В"`
             },
             {
                 id:10,
@@ -1993,10 +1997,10 @@ const autoQuestions = [
                 question:`Ushbu belgilardan qaysi biri bir yoki bir nechta bo'laklarda harakatlanish yo'nalishi qarama-qarshi tomonga o'zgarish mumkin bo'lgan yo'l qismining boshlanishini bildiradi?`,
                 answers: [
                     `"A"`,
-                    `"V"`,
-                    `"B"`,
+                    `"В"`,
+                    `"Б"`,
                 ],
-                trueAnswer: `"V"`
+                trueAnswer: `"В"`
             },
             {
                 id:6,
@@ -2458,12 +2462,12 @@ const autoQuestions = [
                 question:`Qaysi belgi haydovchiga kesib o'tilayotgan yo'lda harakatlanayotgan transport vositalariga yo'l berishi lozimligini bildiradi?`,
                 answers: [
                     `"A"`,
-                    `"G"`,
-                    `"V"`,
-                    `"B" va "G"`,
-                    `"B"`
+                    `"Г"`,
+                    `"В"`,
+                    `"Б" va "Г"`,
+                    `"Б"`
                 ],
-                trueAnswer: `"B" va "G"`
+                trueAnswer: `"Б" va "Г"`
             },
             {
                 id:6,
@@ -2552,12 +2556,12 @@ const autoQuestions = [
                 img:img913,
                 question:`Qaysi belgi haydovchiga kesib o'tilayotgan yo'lda harakatlanayotgan transport vositalariga yo'l berishi lozimligini bildiradi?`,
                 answers: [
-                    `"B" va "G"`,
-                    `"G"`,
-                    `"V"`,
-                    `"B"`
+                    `"Б" va "Г"`,
+                    `"Г"`,
+                    `"В"`,
+                    `"Б"`
                 ],
-                trueAnswer: `"B" va "G"`
+                trueAnswer: `"Б" va "Г"`
             },
             {
                 id:4,
@@ -2682,7 +2686,7 @@ const autoQuestions = [
                 img:img924,
                 question:`Qaysi rasmda ikkita qatnov qismiga ega bo'lgan yo'l ko'rsatilgan?`,
                 answers: [
-                    `"B" rasmda`,
+                    `"Б" rasmda`,
                     `Hech qaysi rasmda`,
                     `"A" rasmda`
                 ],
@@ -2856,11 +2860,11 @@ const autoQuestions = [
         },
         {
             id:9,
-            img:universalImage,
+            img:img939,
             question:`Qaysi rasmda ajratuvchi bo'lak ko'rsatilgan?`,
             answers: [
                 `"A"`,
-                `""A" va  "B"`,
+                `""A" va  "Б"`,
                 `"B"`
             ],
             trueAnswer: `"A"`
@@ -2943,12 +2947,12 @@ const autoQuestions = [
             img:img946,
             question:`Qaysi yo'l belgilari yo'lning tor qismida haydovchiga ustunlik beradi?`,
             answers: [
-                `"B" va "G"`,
-                `"A" va "V"`,
-                `Faqat "V"`,
-                `"B"  va "V"`
+                `"Б" va "Г"`,
+                `"А" va "В"`,
+                `Faqat "В"`,
+                `"Б"  va "В"`
             ],
-            trueAnswer: `"B" va "G"`
+            trueAnswer: `"Б" va "Г"`
         },
         {
             id:7,
@@ -3056,7 +3060,7 @@ const autoQuestions = [
                 `20 m`,
                 `15 m`
             ],
-            trueAnswer: `Gaz pedalini ohista bosib, avtomobilni rul chambaragini to'g'rilab, avtomobil sirpanishdan olib ketish`
+            trueAnswer: `30 m`
         },
         {
             id:6,
@@ -3171,11 +3175,11 @@ const autoQuestions = [
             question:`Qaysi yo'l belgilari yo'nalishsiz transport vositalariga chapga burilishni taqiqlaydi?`,
             answers: [
                 `Hammasi`,
-                `"A" va "B"`,
+                `"A" va "Б"`,
                 `Faqat "A"`,
-                `"A" va "V"`
+                `"A" va "В"`
             ],
-            trueAnswer: `"A" va "V"`
+            trueAnswer: `"A" va "В"`
         },
         {
             id:6,
@@ -3204,20 +3208,20 @@ const autoQuestions = [
             img:img968,
             question:`Balandlika yo'l chetida to'siq mavjud bo'lganda to'xtagan avtomobilni joyidan g'ildirab ketishini oldini olish uchun oldingi g'ildiraklarni burib qo'yish usuli qaysi javobda to'g'ri ko'rsatilgan?`,
             answers: [
-                `"A" va "G""`,
-                `"B" va "V"`,
-                `"A" va "V"`,
-                `"B" va "G"`
+                `"A" va "Г""`,
+                `"Б" va "В"`,
+                `"A" va "В"`,
+                `"Б" va "Г"`
             ],
-            trueAnswer: `"A" va "V"`
+            trueAnswer: `"A" va "В"`
         },
         {
             id:9,
             img:img969,
             question:`Qaysi rasmdagi avtomobil haydovchisi yuk tashish qoidasini buzayapti?`,
             answers: [
-                `"A" va "B"`,
-                `"B"`,
+                `"A" va "Б"`,
+                `"Б"`,
                 `"A"`
             ],
             trueAnswer: `"A"`
@@ -3269,9 +3273,9 @@ const autoQuestions = [
             img:img973,
             question:`Ko'rsatilgan belgilardan qaysi biri faqat shu belgi o'rnatilgan bo'lakka ta'sir qiladi?`,
             answers: [
-                `"B" va "V"`,
+                `"Б" va "В"`,
                 `Faqat "A"`,
-                `Faqat "B"`
+                `Faqat "Б"`
             ],
             trueAnswer: `Faqat "A"`
         },
@@ -3323,7 +3327,7 @@ const autoQuestions = [
         {
             id:8,
             img:universalImage,
-            question:`exanik transport vositalarini shatakka olishda egiluvchan ulagichga kamidan nechta ogohlantiruvchi qurilma o'rnatiladi?`,
+            question:`Mexanik transport vositalarini shatakka olishda egiluvchan ulagichga kamidan nechta ogohlantiruvchi qurilma o'rnatiladi?`,
             answers: [
                 `Kamida uchta`,
                 `Kamida bitta`,
@@ -3387,7 +3391,7 @@ const autoQuestions = [
             img:img983,
             question:`Ko'rsatilgan qaysi yo'l belgisi yengil yo'nalishsiz taksilarga yo'lovchilarni tushirish-chiqarish (yuklarni ortish-tushirish) vaqtida ta'sir qilmaydi?`,
             answers: [
-                `Faqat "B", "C" va "D"`,
+                `Faqat "Б", "C" va "D"`,
                 `Faqat "C"`,
                 `Faqat "A"`,
                 `Hammasi`
@@ -3466,10 +3470,10 @@ const autoQuestions = [
             question:`Bu qo'shimcha-axborot yo'l belgisi qaysi yo'l belgisi bilan birgalikda qo'llaniladi?`,
             answers: [
                 `"A"`,
-                `"B"`,
+                `"Б"`,
                 `"C"`
             ],
-            trueAnswer: `"B`
+            trueAnswer: `"Б`
         },
     ]
     },
@@ -3518,8 +3522,8 @@ const autoQuestions = [
                 question:`Qaysi rasmdagi avtomobil haydovchisi yuk tashish qoidasini buzayapti?`,
                 answers: [
                     `"A"`,
-                    `"B"`,
-                    `"A" "B"`
+                    `"Б"`,
+                    `"A" "Б"`
                 ],
                 trueAnswer: `"A"`
             },
@@ -3561,20 +3565,20 @@ const autoQuestions = [
                 img:img998,
                 question:`Ko'rsatilgan belgilardan qaysi biri ruxsat etilgan to'la vazni 3,5 tonnadan oshmaydigan yuk avtomobillariga harakatlanishga ruxsat beradi?`,
                 answers: [
-                    `Faqat "V"`,
-                    `"A" va "B"`,
-                    `"A" va "V"`
+                    `Faqat "В"`,
+                    `"A" va "Б"`,
+                    `"A" va "В"`
                 ],
-                trueAnswer: `"A" va "V"`
+                trueAnswer: `"A" va "В"`
             },
             {
                 id:9,
                 img:img999,
-                question:`Ko'rsatilgan qaysi belgi texnik tavsifnomasiga yoki holatiga ko'ra tezligi soatiga 40 kilometrdan kam bo'lgan transport vositalarining harakatlanishini taqiqlaydi?`,
+                question:`Ko'rsatilgan qaysi Бelgi texnik tavsifnomasiga yoki holatiga ko'ra tezligi soatiga 40 kilometrdan kam bo'lgan transport vositalarining harakatlanishini taqiqlaydi?`,
                 answers: [
-                    `"A" va "B"`,
+                    `"A" va "Б"`,
                     `Faqat "A"`,
-                    `Faqat "V"`
+                    `Faqat "В"`
                 ],
                 trueAnswer: `Faqat "A"`
             },
@@ -3592,124 +3596,124 @@ const autoQuestions = [
         ]
     },
 /* Bilet 30 */
-{
-    bilet:30,
-    questions: [
-        {
-            id:1,
-            img:img1001,
-            question:`Tartibga solinmagan chorrahada qaysi belgi albatta to'xtashni talab qiladi?`,
-            answers: [
-                `Faqat "B"`,
-                `Hammasi`,
-                `Faqat "A"`,
-                `Faqat "B" va "V"`,
-            ],
-            trueAnswer: `Faqat "B"`
-        },
-        {
-            id:2,
-            img:universalImage,
-            question:`Qatnov qismi yo'l chiziqlari bilan ajratilgan bo'lsa haydovchilar qanday holatlarda qat'iy bo'laklar bo'yicha harakatlanishlari kerak?`,
-            answers: [
-                `Faqat harakatlanish bo'laklari uzluksiz sidirg'a chiziqlar bilan ajratilgan bo'lsa`,
-                `Faqat harakatlanish serqatnov bo'lganda`,
-                `Barcha holatlarda`,
+    {
+        bilet:30,
+        questions: [
+            {
+                id:1,
+                img:img1001,
+                question:`Tartibga solinmagan chorrahada qaysi belgi albatta to'xtashni talab qiladi?`,
+                answers: [
+                    `Faqat "Б"`,
+                    `Hammasi`,
+                    `Faqat "A"`,
+                    `Faqat "Б" va "В"`,
+                ],
+                trueAnswer: `Faqat "Б"`
+            },
+            {
+                id:2,
+                img:universalImage,
+                question:`Qatnov qismi yo'l chiziqlari bilan ajratilgan bo'lsa haydovchilar qanday holatlarda qat'iy bo'laklar bo'yicha harakatlanishlari kerak?`,
+                answers: [
+                    `Faqat harakatlanish bo'laklari uzluksiz sidirg'a chiziqlar bilan ajratilgan bo'lsa`,
+                    `Faqat harakatlanish serqatnov bo'lganda`,
+                    `Barcha holatlarda`,
 
-            ],
-            trueAnswer: `Barcha holatlarda`
-        },
-        {
-            id:3,
-            img:universalImage,
-            question:`Qaysi transport vositalari yo'nalishli transport vositalari hisoblanadi?`,
-            answers: [
-                `Yo'lovchilarni tashuvchi istalgan transport vositalari`,
-                `Belgilangan yo'nalishi va bekatlari bo'lgan yo'lovchi tashish uchun mo'ljallangan transport vositalari`,
-                `Avtobuslar`
-            ],
-            trueAnswer: `Belgilangan yo'nalishi va bekatlari bo'lgan yo'lovchi tashish uchun mo'ljallangan transport vositalari`
-        },
-        {
-            id:4,
-            img:img1004,
-            question:`Qaysi belgi tartibga solinmagan piyodalar o'tish joyiga yaqinlashayotganlik haqida ogohlantiradi?`,
-            answers: [
-                `"A"`,
-                `Hammasi`,
-                `"A" "B"`
-            ],
-            trueAnswer: `"A"`
-        },
-        {
-            id:5,
-            img: img1005,
-            question:`Qaysi holatlarda aholi punktlarida tovushli ishoralardan foydalanish mumkin?`,
-            answers: [
-                `Qizil avtomobil`,
-                `Yashil avtomobil`,
-                `Yashil avtomobil tramvay bilan bir vaqtda`
-            ],
-            trueAnswer: `Yashil avtomobil tramvay bilan bir vaqtda`
-        },
-        {
-            id:6,
-            img: img1006,
-            question:`Ko'rsatilgan belgilardan qaysilarining talabi bevosita o'rnatilgan joyidan kuchga kiradi?`,
-            answers: [
-                `"A" va "B"`,
-                `Hammasi`,
-                `"B"`
-            ],
-            trueAnswer: `"A" va "B"`
-        },
-        {
-            id:7,
-            img:img1007,
-            question:`Chorrahdan birinchi bo'lib kesib o'tadi`,
-            answers: [
-                `Qizil avtomobil`,
-                `Ko'k avtomobil`,
-                `Yashil avtomobil`
-            ],
-            trueAnswer: `Yashil avtomobil`
-        },
-        {
-            id:8,
-            img:universalImage,
-            question:`Yengil avtomobilning tormoz yo'li tormoz tizimiga ega bo'lmagan tirkama bilan harakatlanayotganida qanday o'zgaradi?`,
-            answers: [
-                `Ortadi`,
-                `Kamayadi, chunki tirkama haraktlanishga qo'shimcha qarshilik ko'rsatadi`,
-                `Kamayadi`
-            ],
-            trueAnswer: `Ortadi"`
-        },
-        {
-            id:9,
-            img:universalImage,
-            question:`Old chiroqlar va orqa gabarit chiroqlari ishlamayotgan transport vositasi harakatini davom ettirishi taqiqlanadi?`,
-            answers: [
-                `Faqat kunning qorong'u vaqtida`,
-                `Faqat yetarli ko'rinmaslikda`,
-                `Barcha javoblarda ko'rsatilgan holatlarda`
-            ],
-            trueAnswer: `Barcha javoblarda ko'rsatilgan holatlarda`
-        },
-        {
-            id:10,
-            img:universalImage,
-            question:`Asosiy yo'l -`,
-            answers: [
-                `Barcha javoblar to'g'ri`,
-                `Tuproqli yo'lga nisbatan qattiq qoplamali (asfalt va sement betonli, tosh va shunga o'xshashlar yotqizilgan)`,
-                `Toshli yo'lga nisbatan asfalt qoplamali yo'l`,
-                `Ikki bo'lakli yo'lga nisbatan uch yoki undan ko'p bo'lakli yo'l`
-            ],
-            trueAnswer: `Tuproqli yo'lga nisbatan qattiq qoplamali (asfalt va sement betonli, tosh va shunga o'xshashlar yotqizilgan)`
-        },
-    ]
-},
+                ],
+                trueAnswer: `Barcha holatlarda`
+            },
+            {
+                id:3,
+                img:universalImage,
+                question:`Qaysi transport vositalari yo'nalishli transport vositalari hisoblanadi?`,
+                answers: [
+                    `Yo'lovchilarni tashuvchi istalgan transport vositalari`,
+                    `Belgilangan yo'nalishi va bekatlari bo'lgan yo'lovchi tashish uchun mo'ljallangan transport vositalari`,
+                    `Avtobuslar`
+                ],
+                trueAnswer: `Belgilangan yo'nalishi va bekatlari bo'lgan yo'lovchi tashish uchun mo'ljallangan transport vositalari`
+            },
+            {
+                id:4,
+                img:img1004,
+                question:`Qaysi belgi tartibga solinmagan piyodalar o'tish joyiga yaqinlashayotganlik haqida ogohlantiradi?`,
+                answers: [
+                    `"A"`,
+                    `Hammasi`,
+                    `"A" "Б"`
+                ],
+                trueAnswer: `"A"`
+            },
+            {
+                id:5,
+                img: img1005,
+                question:`Qaysi holatlarda aholi punktlarida tovushli ishoralardan foydalanish mumkin?`,
+                answers: [
+                    `Qizil avtomobil`,
+                    `Yashil avtomobil`,
+                    `Yashil avtomobil tramvay bilan bir vaqtda`
+                ],
+                trueAnswer: `Yashil avtomobil tramvay bilan bir vaqtda`
+            },
+            {
+                id:6,
+                img: img1006,
+                question:`Ko'rsatilgan belgilardan qaysilarining talabi bevosita o'rnatilgan joyidan kuchga kiradi?`,
+                answers: [
+                    `"A" va "Б"`,
+                    `Hammasi`,
+                    `"Б"`
+                ],
+                trueAnswer: `"A" va "Б"`
+            },
+            {
+                id:7,
+                img:img1007,
+                question:`Chorrahdan birinchi bo'lib kesib o'tadi`,
+                answers: [
+                    `Qizil avtomobil`,
+                    `Ko'k avtomobil`,
+                    `Yashil avtomobil`
+                ],
+                trueAnswer: `Yashil avtomobil`
+            },
+            {
+                id:8,
+                img:universalImage,
+                question:`Yengil avtomobilning tormoz yo'li tormoz tizimiga ega bo'lmagan tirkama bilan harakatlanayotganida qanday o'zgaradi?`,
+                answers: [
+                    `Ortadi`,
+                    `Kamayadi, chunki tirkama haraktlanishga qo'shimcha qarshilik ko'rsatadi`,
+                    `Kamayadi`
+                ],
+                trueAnswer: `Ortadi`
+            },
+            {
+                id:9,
+                img:universalImage,
+                question:`Old chiroqlar va orqa gabarit chiroqlari ishlamayotgan transport vositasi harakatini davom ettirishi taqiqlanadi?`,
+                answers: [
+                    `Faqat kunning qorong'u vaqtida`,
+                    `Faqat yetarli ko'rinmaslikda`,
+                    `Barcha javoblarda ko'rsatilgan holatlarda`
+                ],
+                trueAnswer: `Barcha javoblarda ko'rsatilgan holatlarda`
+            },
+            {
+                id:10,
+                img:universalImage,
+                question:`Asosiy yo'l -`,
+                answers: [
+                    `Barcha javoblar to'g'ri`,
+                    `Tuproqli yo'lga nisbatan qattiq qoplamali (asfalt va sement betonli, tosh va shunga o'xshashlar yotqizilgan)`,
+                    `Toshli yo'lga nisbatan asfalt qoplamali yo'l`,
+                    `Ikki bo'lakli yo'lga nisbatan uch yoki undan ko'p bo'lakli yo'l`
+                ],
+                trueAnswer: `Tuproqli yo'lga nisbatan qattiq qoplamali (asfalt va sement betonli, tosh va shunga o'xshashlar yotqizilgan)`
+            },
+        ]
+    }
 ]
 
-export default autoQuestions;
+export default autoQuestions ;

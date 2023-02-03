@@ -1,52 +1,61 @@
 import React, { useEffect, useState } from 'react';
+import $ from 'jquery';
 import { FaAngleLeft, FaAngleRight } from 'react-icons/fa';
 import { useGlobalContext } from './context';
 import { AiOutlineClose } from "react-icons/ai";
-import 'bootstrap/dist/css/bootstrap.css';
-import 'bootstrap/dist/js/bootstrap';
-
-import autoQuestions from "./data";
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap/dist/js/bootstrap'
 function Home() {
-  const {isQuestionsPageOpen, openQuestionsPage, closeQuestionsPage, isSelectionPanelOpen, closeSelectionPanel, openSelectionPanel, isEnterButton, isShowAnswer, showAnswer, closeAnswer} = useGlobalContext()
-  const [biletCount, setBiletCounter] = useState(1);
-  const {bilet, questions} = autoQuestions[biletCount];
-  const [questionCount, setQuestionCounter] = useState(0)
-  const { id, img, question, answers, trueAnswer} = questions[questionCount];
+  const {visableQuestions,showQuesionsPage, hideQuesionsPage,visableSelection, showSelectionPanel, hideSelectionPanel, visableEnterBtn, allquestions, biletNumber} = useGlobalContext();
+  const [biletCount, setBiletCounter] = useState(biletNumber);
+  const { questions, bilet} = allquestions[biletCount];
+  const [questionNumber, setQuestionNumber] = useState(0)
+  const {id, img, question, answers, trueAnswer} = questions[questionNumber];
 
-/*   useEffect(()=> {
-   return questions
-  }, [biletCount]) */
-
-  const checkNumber = (number) => {
-    if (number > questions.length - 1) {
-      return 0;
-    }
-    if (number < 0) {
-      return questions.length - 1;
-    }
-    return number;
-  };
-  const nextQuestion = () => {
-    setQuestionCounter((index) => {
-      let newIndex = index + 1;
-      return checkNumber(newIndex);
-    });
-  };
+  useEffect(() => {
+    setQuestionNumber(0)
+  }, [biletCount])
+  
   const prevQuestion = () => {
-    setQuestionCounter((index) => {
-      let newIndex = index - 1;
-      return checkNumber(newIndex);
-    });
-  };
-
+    setQuestionNumber((item) => {
+      let newNumber = item - 1;
+     return checkNumber(newNumber)
+    })
+  }
+  const nextQuestion = () => {
+    setQuestionNumber((item) => {
+      let newNumber = item + 1;
+     return checkNumber(newNumber)
+    })
+  }
+  $(".next").click(function(){
+    $(".list-groups-item").css({"background": "none"})
+  })
+  const checkNumber = (number) => {
+    if(number < 0) {
+      return questions.length - 1
+    }
+    if(number > questions.length - 1) {
+      return 0
+    }
+    return number
+  }
+  const checkAnswer = (e) => {
+    if(e.target.textContent === trueAnswer) {
+        return e.target.style.backgroundColor = "green"
+    }
+    if(e.target.textContent !== trueAnswer) {
+        return e.target.style.backgroundColor = "red"
+    }
+}
   return (
     <div className='home'>
       {/* Enter Btn */}
-     <button className={`${isEnterButton ? 'enter-btn show-enter-btn' : 'enter-btn'}`} onClick={openSelectionPanel}>Kirish</button>
+     <button className={`${visableEnterBtn ? 'enter-btn show-enter-btn' : 'enter-btn'}`} onClick={showSelectionPanel}>Kirish</button>
 
        {/* Selection Panel */}
-     <div className={` col-10 col-sm-10 col-md-8 col-lg-6 ${isSelectionPanelOpen ?  'selection-panel show-selection-panel' : 'selection-panel'}`}>
-      <label className='text-center alert bg-dark text-light'>Bilet Tanlang</label>
+     <div className={` col-10 col-sm-10 col-md-8 col-lg-6 ${visableSelection ?  'selection-panel show-selection-panel' : 'selection-panel'}`}>
+      <label className='text-center alert text-light'>Bilet Tanlang</label>
       <select className='form-control' value={biletCount} onChange={e => setBiletCounter(e.target.value)}>
         <option>1</option>
         <option>2</option>
@@ -81,50 +90,39 @@ function Home() {
       </select>
 
       <div className='buttons'>
-        <button className='btn' onClick={closeSelectionPanel}>Chiqish</button>
-        <button className='btn' onClick={openQuestionsPage}>Boshlash</button>
+        <button className='btn' onClick={hideSelectionPanel}>Chiqish</button>
+        <button className='btn' onClick={showQuesionsPage}>Boshlash</button>
       </div>
      </div>
 
        {/* QuestionPanel */}
-     <div className={`${isQuestionsPageOpen ? 'questions-panel show-questions-panel' : 'questions-panel'}`}>
-      <div className='questions-label'>
-        <p className='alert bg-light'><span className=''>{id}</span>. {question}</p>
-        <ul className='list-group'>
-          {answers.map((answer, index) => {
-            return <li key={index} className='list-group-item'><span className='keys'>F{index+1}</span>. {answer}</li>
-          })}
-        </ul>
+    <div className={`${visableQuestions ? 'questions-panel show-questions-panel' : 'questions-panel'}`}>
+    <div className='questions-label'>
+    <p className='alert bg-light'><span className=''>{id}</span>. {question}</p>
+    <ul className='list-groups'>
+    {answers.map((answer, index) => {
+    return      <li key={index} className='list-groups-item' onClick={checkAnswer}>{answer}</li>
+    })}
+    </ul>
+    </div>
+    <div className='image-label '>
+    <div className='header'>
+    <button type="button" className="btn btn-light">
+    <span className='badge'>{bilet}</span>-Bilet 
+    </button>
+    <button className='btn btn-danger' onClick={hideQuesionsPage}>{<AiOutlineClose/>}</button>
+    </div>
 
-        {/* Answer */}
-        <p>
-  <button className="btn show-btn m-1" type="button" data-toggle="collapse" data-target="#answer" aria-expanded="false" aria-controls="answer">
-   Javobi
-  </button>
-</p>
-<div className={`${ isShowAnswer ? "answer"  : "answer collapse "}`} id="answer">
-  <div className="card card-body">
-   {trueAnswer}
-  </div>
-</div>
+    <img src={img} alt={trueAnswer}/>
+    <div className='control-buttons'>
+    <button className='btn control-btn prev' onClick={prevQuestion}>{<FaAngleLeft/>} Oldingi </button>
+    <button className='btn control-btn next' onClick={nextQuestion}>Keyingi {<FaAngleRight/>}</button>
+    </div>
+    </div>
+    </div>
 
-      </div>
-      <div className='image-label '>
-        <div className='header'>
-        <button type="button" className="btn btn-light">
-       <span className='badge'>{bilet}</span>-Bilet 
-        </button>
-        <button className='btn btn-danger' onClick={closeQuestionsPage}>{<AiOutlineClose/>}</button>
-        </div>
-        <img src={img} alt={trueAnswer}/>
-        <div className='control-buttons'>
-        <button className='btn ' onClick={prevQuestion}>{<FaAngleLeft/>} Oldingi </button>
-        <button className='btn ' onClick={nextQuestion}>Keyingi {<FaAngleRight/>}</button>
-      </div>
-      </div>
-     </div>
     </div>
   )
 }
 
-export default Home
+export default Home 
