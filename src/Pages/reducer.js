@@ -1,4 +1,3 @@
-
 const reducer = (state, action) => {
     if(action.type === "Show_Questions") {
         return {

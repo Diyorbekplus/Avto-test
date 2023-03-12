@@ -1,115 +1,76 @@
 body {
   margin: 0;
   padding: 0;
+  background: #697A98;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-.main-layout {
-  position: relative;
-}
-.main-layout .navbar {
-  background: rgb(200, 75, 40);
-}
-.main-layout .navbar .links-section {
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-}
-.main-layout .navbar .links-section .navbar-nav .nav-item img {
-  width: 80px;
-  height: 80px;
-}
-.main-layout .home {
+.home {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.main-layout .home .enter-btn {
-  display: none;
+.home .enter-btn {
   color: #fff;
   margin-top: 5rem;
-  border: 2px solid rgb(200, 75, 40);
+  border: 2px solid #333;
   width: 150px;
-  background: rgb(70, 68, 68);
-  padding: 1rem;
+  background: rgb(61, 66, 67);
+  padding: 0.5rem 1rem;
   border-radius: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
-.main-layout .home .enter-btn:hover {
+.home .enter-btn:hover {
   box-shadow: 1px 5px 20px rgb(70, 68, 68), 1px -5px 20px rgb(70, 68, 68);
 }
-.main-layout .home .enter-btn.show-enter-btn {
-  display: block;
-}
-.main-layout .home .selection-panel {
-  display: none;
-  position: absolute;
+.home .selection-panel {
+  display: flex;
+  position: relative;
   flex-direction: column;
   align-items: center;
-  top: 100%;
   margin-top: 5rem;
-  background: rgb(70, 68, 68);
   padding: 1rem;
   border-radius: 3rem;
+  background: rgb(7, 102, 119);
 }
-.main-layout .home .selection-panel .alert {
+.home .selection-panel .alert {
   font-size: 2rem;
   border-radius: 2rem;
-  background-color: rgb(200, 75, 40);
+  background-color: #697A98;
 }
-.main-layout .home .selection-panel select {
+.home .selection-panel select {
   height: 5rem;
   font-size: 2rem;
 }
-.main-layout .home .selection-panel select option {
-  background: #fff;
-}
-.main-layout .home .selection-panel select option:hover {
-  outline: none;
-  border: none;
-  background: none;
-}
-.main-layout .home .selection-panel .buttons {
+.home .selection-panel .buttons {
   display: flex;
   width: 100%;
   justify-content: space-between;
   border-radius: 1rem;
 }
-.main-layout .home .selection-panel .buttons .btn {
+.home .selection-panel .buttons .btn {
   color: #fff;
-  border: 2px solid coral;
-  background: rgb(70, 68, 68);
+  border: 2px solid #333;
   border-radius: 1rem;
   font-size: 1.5rem;
   padding: 0.5rem;
   margin: 2rem 2rem 1rem 2rem;
 }
-.main-layout .home .show-selection-panel {
-  display: flex;
-}
-.main-layout .home .questions-panel {
-  display: none;
-  flex-wrap: wrap;
-  border-radius: 1rem;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
+.home .questions-panel {
+  display: grid;
+  grid-template-columns: 2.5fr 5fr;
+  grid-gap: 1rem;
   min-height: 500px;
-  background: rgb(234, 235, 235);
-  box-sizing: border-box;
-}
-.main-layout .home .questions-panel .questions-label {
-  position: relative;
   padding: 1rem;
-  font-size: 2rem;
-  float: left;
-  width: 30%;
+  font-size: 1.7rem;
 }
-.main-layout .home .questions-panel .questions-label .alert span {
-  color: rgb(200, 75, 40);
+.home .questions-panel .questions-label .alert {
+  text-align: justify;
 }
-.main-layout .home .questions-panel .questions-label ul li {
+.home .questions-panel .questions-label .alert span {
+  color: #333;
+}
+.home .questions-panel .questions-label ul li {
   list-style-type: decimal;
   background: none;
   border-radius: 2rem;
@@ -117,92 +78,47 @@ body {
   border-bottom: 3px solid #fff;
   margin: 0.5rem 0;
 }
-.main-layout .home .questions-panel .questions-label ul li span {
-  color: rgb(200, 75, 40);
+.home .questions-panel .questions-label ul li span {
+  color: #333;
 }
-.main-layout .home .questions-panel .questions-label .dropdown .show-btn {
-  margin-top: 1rem;
-  background: rgb(200, 75, 40);
-  color: #fff;
-}
-.main-layout .home .questions-panel .questions-label .dropdown .dropdown-item {
-  font-size: 2rem;
-}
-.main-layout .home .questions-panel .image-label {
-  position: relative;
-  padding: 1rem;
-  float: left;
-  width: 70%;
-}
-.main-layout .home .questions-panel .image-label .header {
+.home .questions-panel .image-label .header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.main-layout .home .questions-panel .image-label .header button span {
-  margin: 0 0rem;
-  background: rgb(200, 75, 40);
-  font-size: 1.2rem;
-  color: #000;
+.home .questions-panel .image-label .header .bilet {
+  background: rgb(7, 102, 119);
+  color: #fff;
+  font-size: 1.5rem;
 }
-.main-layout .home .questions-panel .image-label img {
+.home .questions-panel .image-label .header .hide_question_btn {
+  background: #333;
+  border: none;
+  color: rgb(191, 43, 43);
+  font-size: 2rem;
+}
+.home .questions-panel .image-label img {
+  filter: brightness(130%);
   max-height: 720px;
   width: 100%;
   height: 80%;
 }
-.main-layout .home .questions-panel .image-label .control-buttons {
+.home .questions-panel .image-label .control-buttons {
   display: flex;
   padding: 1rem;
   justify-content: space-between;
 }
-.main-layout .home .questions-panel .image-label .control-buttons .btn {
-  border: 1px solid rgb(200, 75, 40);
+.home .questions-panel .image-label .control-buttons .btn {
+  border: 1px solid #000;
+  background: rgb(7, 102, 119);
+  color: #fff;
 }
-.main-layout .home .questions-panel .image-label .control-buttons .btn:hover {
-  color: rgb(200, 75, 40);
-}
-.main-layout .home .questions-panel.show-questions-panel {
-  display: flex;
-}
-@media only screen and (max-width: 1000px) {
-  .main-layout .home .selection-panel .buttons .btn {
-    color: #fff;
-    font-size: 1.2rem;
-    margin: 2rem 1rem 1rem 1rem;
+@media screen and (max-width: 1200px) {
+  .home .questions-panel {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
   }
-  .main-layout .home .questions-panel {
-    position: absolute;
-    width: 100%;
-    display: none;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 1rem;
-    position: relative;
-  }
-  .main-layout .home .questions-panel .questions-label {
-    order: 2;
-    position: relative;
-    float: left;
-    width: 100%;
-  }
-  .main-layout .home .questions-panel .questions-label .list-groups .list-groups-item {
-    background: none;
-  }
-  .main-layout .home .questions-panel .image-label {
-    position: absolute;
-    top: 0;
-    order: 1;
-    position: relative;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    float: left;
-    width: 100%;
-  }
-  .main-layout .home .questions-panel .image-label .header-section {
-    position: absolute;
-    display: flex;
-    justify-content: space-between;
+  .home .questions-panel .questions-label {
+    grid-row: 2/-1;
   }
 }

@@ -2323,7 +2323,7 @@ const autoQuestions = [
                 question:`Aylanma harakatlanish chorrahasida ...`,
                 answers: [
                     `Harakatlanayotgan transport vositalari aylanaga kirib kelayotgan transport vositalariga nisbatan ustunlikka ega`,
-                    `Harakatlanayotgan transport vositalariga aylanaga kirib kelayotgan transport vositalariga nisbatan ustunlikka ega`
+                    `Aylanaga kirib kelayotgan transport vositalari harakatlanayotgan transport vositalariga nisbatan ustunlikka ega`
                 ],
                 trueAnswer: `Harakatlanayotgan transport vositalari aylanaga kirib kelayotgan transport vositalariga nisbatan ustunlikka ega`
             },
@@ -2334,7 +2334,7 @@ const autoQuestions = [
                 answers: [
                     `Avtomobilni tormozlab, yo'lning qatnov qismiga ohista ravon burish`,
                     `Avtomobilni tormozlamasdan yo'lning qatnov qismiga ohista ravon burish`,
-                    `Avtomobilni tormozlasjh va to'liq to'xtatish`
+                    `Avtomobilni tormozlash va to'liq to'xtatish`
                 ],
                 trueAnswer: `Avtomobilni tormozlamasdan yo'lning qatnov qismiga ohista ravon burish`
             },
@@ -3462,7 +3462,7 @@ const autoQuestions = [
                 `Qatnov qismi chetidan katta yoshdagilar kuzatuvida olib yurishga ruxsat etiladi`,
                 `Yo'l yoqasidan faqat kunduzi va katta yoshdagilar kuzatuvida olib yurishga ruxsat etiladi`
             ],
-            trueAnswer: `Qatnov qismi chetidan katta yoshdagilar kuzatuvida olib yurishga ruxsat etiladi`
+            trueAnswer: `Yo'l yoqasidan faqat kunduzi va katta yoshdagilar kuzatuvida olib yurishga ruxsat etiladi`
         },
         {
             id:10,
@@ -3473,7 +3473,7 @@ const autoQuestions = [
                 `"Б"`,
                 `"C"`
             ],
-            trueAnswer: `"Б`
+            trueAnswer: `"Б"`
         },
     ]
     },
@@ -3648,7 +3648,7 @@ const autoQuestions = [
             {
                 id:5,
                 img: img1005,
-                question:`Qaysi holatlarda aholi punktlarida tovushli ishoralardan foydalanish mumkin?`,
+                question:`Chorrahadan ikkinchi bo'lib qaysi transport vositasi kesib o'tadi?`,
                 answers: [
                     `Qizil avtomobil`,
                     `Yashil avtomobil`,
