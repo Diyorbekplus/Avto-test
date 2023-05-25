@@ -1,0 +1,17 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px 5%;
+}
+.navbar .navbar_brand_section img {
+  width: 80px;
+  height: 80px;
+}
+.navbar .navbar_links_section .link {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #e9eeF2;
+  font-size: 2rem;
+  font-weight: 600;
+}
